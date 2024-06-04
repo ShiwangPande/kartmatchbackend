@@ -148,20 +148,6 @@
 
     },
     {
-        "id": 11,
-        "name": "Song Hay",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.35025903325425, 22.567800160152334] 
-        },
-        "foodItems": ["noodels", "chowmein", "chicken noodles", "ginger orange martini", "Whisky sour"],
-        "hygieneRating": 3,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/D0SNLVxq/song-hay-665b77391a159-5-11zon.webp"
-
-    },
-    {
         "id": 12,   
         "name": "Sai vada pav centre",
         "location": {
@@ -214,19 +200,6 @@
         "tasteRating": 4,
         "hospitalityRating": 4,
         "photoUrl": "https://i.postimg.cc/wTSC5v83/khao-pio-aish-karo-665b772854eb6-12-11zon.webp"
-    },
-    {
-        "id": 16,
-        "name": "BHIKHAARAM CHANDMAL RAJUJI",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.44346046455085, 22.62238349110128] 
-        },
-        "foodItems": ["Club Kachori", "Pav Bhaji", "Gulab Jamun", "Chole Bhatura", "Special Dosa", "Manchurian", "SPL Chowmin", "Rosogolla"],
-        "hygieneRating": 5,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/05Z5C7cj/bhikhaaram-chandmal-rajuji-665b7717bd528-34-11zon.webp"
     },
     {
         "id": 17,
@@ -398,19 +371,6 @@
         "hospitalityRating": 2,
         "photoUrl": "https://i.postimg.cc/SKpp4KDH/home-slice-665b7723981a3-7-11zon.webp"
     },
-    {
-        "id": 30,
-        "name": "Bombay Shiv Sagar",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.35395787159433, 22.54669739000189] 
-        },
-        "foodItems": ["Rice", "Chinese Gravy", "Milk shake", "Fresh Juice", "veg fried rice", "palak rice", "Shanghai paneer", "sweet/sour veg", "veg manchurian"],
-        "hygieneRating": 5,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/8kY9D5Cw/bombay-shiv-sagar-665b7719b1a67-36-11zon.webp"
-    },
 
     {
         "id": 31,
@@ -581,19 +541,6 @@
         "tasteRating": 4,
         "hospitalityRating": 3,
         "photoUrl": "https://i.postimg.cc/kGjnXdBK/basu-da-r-ghugni-665b771598dc9-32-11zon.webp"
-    },
-    {
-        "id": 44,
-        "name": "Salam Street Food",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.36083464788958, 22.56947944842543] 
-        },
-        "foodItems": ["kathi rolls", "paneer roll"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 3,
-        "photoUrl": "https://i.postimg.cc/MTKNZfR3/salam-street-food-665b7735ad035-1-11zon.webp"
     }
 ]
 
