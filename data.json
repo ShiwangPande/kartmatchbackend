@@ -7,7 +7,7 @@
             "type": "Point",
             "coordinates": [88.34977042578359, 22.566996743461672]   
         },
-        "foodItems": ["Tea Bh& (Small, Medium, Big)", "Butter Toast", "Malayi Toast", "Pineapple Jelly Toast", "Mango Jelly Toast", "Milk 200 ml", "Parcel Tea", "Special Toast"],
+        "foodItems": ["Tea Bhand (Small, Medium, Big)", "Butter Toast", "Malayi Toast", "Pineapple Jelly Toast", "Mango Jelly Toast", "Milk 200 ml", "Parcel Tea", "Special Toast"],
         "hygieneRating": 4,
         "tasteRating": 5,
         "hospitalityRating": 4,
@@ -229,16 +229,16 @@
     },
     {
         "id": 19,
-        "name": "ANNAPURNA FUCHKA STALL",
+        "name": "ANNAPURNA Puchka STALL",
         "location": {
             "type": "Point",
             "coordinates": [88.43447927286053, 22.590646686559563] 
         },
-        "foodItems": ["Fuchka", "Dahi Puchka", "Aloo Puchka", "Churmur", "Dahi Churmur", "Aloo Churmur", "Dahi Aloo Churmur"],
+        "foodItems": ["Puchka", "Dahi Puchka", "Aloo Puchka", "Churmur", "Dahi Churmur", "Aloo Churmur", "Dahi Aloo Churmur"],
         "hygieneRating": 4,
         "tasteRating": 4,
         "hospitalityRating": 2,
-        "photoUrl": "https://i.postimg.cc/155XxvfD/annapurna-fuchka-stall-665b770e1ed5b-26-11zon.webpp"
+        "photoUrl": "https://i.postimg.cc/155XxvfD/annapurna-Puchka-stall-665b770e1ed5b-26-11zon.webpp"
     },
     {
         "id": 20,
@@ -431,7 +431,7 @@
             "type": "Point",
             "coordinates": [88.33167881822361, 22.531809954933014] 
         },
-        "foodItems": ["Ghughuni Phuchka", "aaludum sejwan", "sejwan phuchka", "kairy phuchka", "churmur Phuchaka", "Dhokla puchaka", "aalu chat", "chunghuni chat", "Pakoda chat", "aalu chat"],
+        "foodItems": ["Ghughuni Puchka", "aaludum sejwan", "sejwan Puchka", "kairy Puchka", "churmur Puchka", "Dhokla Puchka", "aalu chat", "chunghuni chat", "Pakoda chat", "aalu chat"],
         "hygieneRating": 3,
         "tasteRating": 5,
         "hospitalityRating": 3,
@@ -445,7 +445,7 @@
             "type": "Point",
             "coordinates": [88.34671121242069, 22.531376204485387] 
         },
-        "foodItems": ["Pani Phuchka", "Alu Dam", "Papri chat", "Dahi Phuchka", "Alu Chat", "Mix Chat", "Phuchka Chat"],
+        "foodItems": ["Pani Puchka", "Alu Dam", "Papri chat", "Dahi Puchka", "Alu Chat", "Mix Chat", "Puchka Chat"],
         "hygieneRating": 4,
         "tasteRating": 5,
         "hospitalityRating": 4,
@@ -466,7 +466,7 @@
     },
     {
         "id": 38,
-        "name": "BADA PHUCHKA WALA",
+        "name": "BADA Puchka WALA",
         "location": {
             "type": "Point",
             "coordinates": [88.33536938890995, 22.507252184328152] 
@@ -475,7 +475,7 @@
         "hygieneRating": 4,
         "tasteRating": 4,
         "hospitalityRating": 3,
-        "photoUrl": "https://i.postimg.cc/4dg4W5D7/bada-phuchka-wala-665b7713829e6-30-11zon.webp"
+        "photoUrl": "https://i.postimg.cc/4dg4W5D7/bada-Puchka-wala-665b7713829e6-30-11zon.webp"
     },
     {   
         "id": 39,
@@ -492,42 +492,42 @@
     },
     {
         "id": 40,
-        "name": "Rajendra Fuchka",
+        "name": "Rajendra Puchka",
         "location": {
             "type": "Point",
             "coordinates": [88.36678716588669, 22.509046820599114] 
         },
-        "foodItems": ["special Alurdam", "Alurdam fuchka", "dahi fuchka", "dahi alurdam", "dahi aluradam fuchka", "sweet fuchka", "dahi churmur", "alurdam churmur"],
+        "foodItems": ["special Alurdam", "Alurdam Puchka", "dahi Puchka", "dahi alurdam", "dahi aluradam Puchka", "sweet Puchka", "dahi churmur", "alurdam churmur"],
         "hygieneRating": 3,
         "tasteRating": 4,
         "hospitalityRating": 3,
-        "photoUrl": "https://i.postimg.cc/cCJSz5XH/rajendra-fuchka-665b77312a221-21-11zon.webp"
+        "photoUrl": "https://i.postimg.cc/cCJSz5XH/rajendra-Puchka-665b77312a221-21-11zon.webp"
     },
     {
         "id": 41,
-        "name": "Kakar Fuchka",
+        "name": "Kakar Puchka",
         "location": {
             "type": "Point",
             "coordinates": [88.46348516909711, 22.583015077554126] 
         },
-        "foodItems": ["Special Puchka", "Normal Puchka", "special Alurdam", "Alurdam fuchka", "sweet fuchka", "alurdam churmur"],
+        "foodItems": ["Special Puchka", "Normal Puchka", "special Alurdam", "Alurdam Puchka", "sweet Puchka", "alurdam churmur"],
         "hygieneRating": 3,
         "tasteRating": 1,
         "hospitalityRating": 3,
-        "photoUrl": "https://i.postimg.cc/tJJKkn4n/kakar-fuchka-665b772649199-10-11zon.webp"
+        "photoUrl": "https://i.postimg.cc/tJJKkn4n/kakar-Puchka-665b772649199-10-11zon.webp"
     },
     {
         "id": 42,
-        "name": "Fuchka para Halisahar",
+        "name": "Puchka para Halisahar",
         "location": {
             "type": "Point",
             "coordinates": [88.41382653222404, 22.956623281604024] 
         },
-        "foodItems": ["Chicken Puchka", "mutton Puchka", "Chocolate Puchka", " Jelly Puchka", "cheese Puchka", "Doi Fuchka"],
+        "foodItems": ["Chicken Puchka", "mutton Puchka", "Chocolate Puchka", " Jelly Puchka", "cheese Puchka", "Doi Puchka"],
         "hygieneRating": 4,
         "tasteRating": 4,
         "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/s29CgRLx/fuchka-para-halisahar-665b7721732b2-6-11zon.webp"
+        "photoUrl": "https://i.postimg.cc/s29CgRLx/Puchka-para-halisahar-665b7721732b2-6-11zon.webp"
     },
     {
         "id": 43,
