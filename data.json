@@ -541,6 +541,19 @@
         "tasteRating": 4,
         "hospitalityRating": 3,
         "photoUrl": "https://i.postimg.cc/kGjnXdBK/basu-da-r-ghugni-665b771598dc9-32-11zon.webp"
+    },
+    {
+        "id": 43,
+        "name": "test",
+        "location": {
+            "type": "Point",
+            "coordinates": [79.13075903651709, 21.11563666098497] 
+        },
+        "foodItems": ["ghugni", "aludum"],
+        "hygieneRating": 4,
+        "tasteRating": 4,
+        "hospitalityRating": 3,
+        "photoUrl": "https://i.postimg.cc/kGjnXdBK/basu-da-r-ghugni-665b771598dc9-32-11zon.webp"
     }
 ]
 
