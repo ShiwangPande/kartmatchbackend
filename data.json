@@ -658,7 +658,323 @@
         "hospitalityRating": 4,
         "photoUrl": "https://i.postimg.cc/j5GFVhdw/basudev.webp"
 
-    }
+    },
+    {
+        "id": 48,
+        "name": "Bengal Sharbet House",
+        "location": {
+            "type": "Point",
+            "coordinates": [88.343273, 22.547787]   
+        },
+        "foodItems": ["Aam Pora Sharbat", "Gondhoraj Lemon Sharbat", "Bel Panna", "Rose Milk"],
+        "hygieneRating": 4,
+        "tasteRating": 4,
+        "hospitalityRating": 4,
+    "photoUrl":"https://i.postimg.cc/fTK2mFDD/bengal-sharbet-house.webp"
+
+
+    },
+    {
+        "id": 49,
+        "name": "Bombay Famour Chat",
+        "location": {
+            "type": "Point",
+            "coordinates": [88.343194, 22.547820]   
+        },
+        "foodItems": ["Batata Puri", "Masala Puri", "Papdi Chaat", "Bhel Puri"],
+        "hygieneRating": 4,
+        "tasteRating": 4,
+        "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/YCCX33Cg/bombat-famour-chat.webp"},
+{
+    "id": 50,
+    "name": "Bhel House",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.342021, 22.541439]   
+    },
+    "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/bN8VG8Xm/bhel-house.webp"},
+{
+    "id": 51,
+    "name": "Bong momo magic",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.346438, 22.524439]   
+    },
+    "foodItems": ["Steamed Momo", "Fried Momo", "Tandoori Momo", "Schezwan Momo"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/mZ762knc/bong-momo-magic.webp"},
+{
+    "id": 52,
+    "name": "chat adda",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.353566, 22.545055]   
+    },
+    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/C1kJ1rcy/chat-adda.webp"},
+{
+    "id": 53,
+    "name": "chiruni pav bhaji",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.333022, 22.559292]   
+    },
+    "foodItems": ["Pav Bhaji", "Cheese Pav Bhaji", "Masala Pav", "Butter Pav Bhaji"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/g2tgBZx7/chiruni-pav-bhaji.webp"},
+{
+    "id": 54,
+    "name": "ganga puchka corner",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.342068, 22.541431]   
+    },
+    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/R03grZfZ/ganga-puchka-corner.webp"},
+{
+    "id": 55,
+    "name": "ganguly pan pala",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.346238, 22.525639]   
+    },
+    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/tgL29Gtt/ganguly-pan-palace.webp"},
+{
+    "id": 56,
+    "name": "kolkata pan kutir",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.354545, 22.538032]   
+    },
+    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/qBcjHYty/kolkata-pan-kutir.webp"},
+{
+    "id": 57,
+    "name": "laxman bhel puri",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.354527, 22.538032]   
+    },
+    "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/RVMGSRf8/laxman-bhel-puri.webp"},
+{
+    "id": 58,
+    "name": "maya bose jai jawan stall",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.333103, 22.559414]   
+    },
+    "foodItems": ["Egg Roll", "Chicken Roll", "Paneer Roll", "Mutton Roll"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/7h49T1R5/maya-bose-jai-jawan-stall.webp"},
+{
+    "id": 59,
+    "name": "mishti kachori",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.346419, 22.524201]   
+    },
+    "foodItems": ["Kachori", "Alur Dom", "Singara", "Khasta Kachori"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/FzxZbdtD/mishti-kachori.webp"},
+{
+    "id": 60,
+    "name": "misti pan masala",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.330380, 22.522271]   
+    },
+    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/y8GTTC54/misti-pan-masala.webp"},
+{
+    "id": 61,
+    "name": "mohan noodle",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.344162, 22.540687]   
+    },
+    "foodItems": ["Hakka Noodles", "Schezwan Noodles", "Chilli Garlic Noodles", "Mixed Veg Noodles"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/GhqKHyxp/mohan-noodle.webp"},
+{
+    "id": 62,
+    "name": "murmura mastaan",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.344240, 22.540669]   
+    },
+    "foodItems": ["Jhal Muri", "Churmur", "Bhel Puri", "Masala Muri"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/4xy5txWQ/murmura-mastaan.webp"},
+{
+    "id": 63,
+    "name": "nirvana nimbu pani",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.333028, 22.559356]   
+    },
+    "foodItems": ["Nimbu Pani", "Pudina Nimbu Pani", "Masala Soda", "Jal Jeera"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/XvykHDSZ/nirvana-nimbu-pani.webp"},
+{
+    "id": 64,
+    "name": "puchka babu",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.353616, 22.545019]   
+    },
+    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/vBrLMgmb/puchka-babu.webp"},
+{
+    "id": 65,
+    "name": "puchka-pritam",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]   
+    },
+    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/mDfN0NBm/puchka-pritam.webp"},
+{
+    "id": 66,
+    "name": "raja chat",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.342006, 22.541402]   
+    },
+    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/vHHLFmww/raja-chat.webp"},
+{
+    "id": 67,
+    "name": "raja pan masala",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.346325, 22.525736]   
+    },
+    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/ZnJPqb93/raja-pan-masala.webp"},
+{
+    "id": 68,
+    "name": "saraswati murmura",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.346436, 22.524117]   
+    },
+    "foodItems": ["Jhal Muri", "Churmur", "Bhel Puri", "Masala Muri"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/ry9CPrb9/saraswati-murmura.webp"},
+{
+    "id": 69,
+    "name": "shibuji stall",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.353508, 22.545035]   
+    },
+    "foodItems": ["Chana Zor Garam", "Masala Papad", "Bhel Puri", "Jhal Muri"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/LsfjBYLL/shibuji.webp"},
+{
+    "id": 70,
+    "name": "special bhej puri",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.333012, 22.559309]   
+    },
+    "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/BnjTbwvh/spl-bhej-puri.webp"},
+{
+    "id": 71,
+    "name": "spl chaat corner",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.343265, 22.547760]   
+    },
+    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/9QsG7tRc/spl-chaat-corner.webp"},
+{
+    "id": 72,
+    "name": "spl pav bhaji",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.343851, 22.563527]   
+    },
+    "foodItems": ["Pav Bhaji", "Cheese Pav Bhaji", "Masala Pav", "Butter Pav Bhaji"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/9MYTK6xf/spl-pav-bhaji.webp"},
+{
+    "id": 73,
+    "name": "sunder kachori",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]   
+    },
+    "foodItems": ["Kachori", "Alur Dom", "Singara", "Khasta Kachori"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/JnLZTr5g/sunder-kachori.webp"}
+
    
 ]
 
