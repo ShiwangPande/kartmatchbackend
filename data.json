@@ -1,89 +1,6 @@
 {
     "vendorData" : [
-    {
-        "id": 1,
-        "name": "Bhel Puri Batata Puri",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.358976, 22.514412]   
-        },
-        "foodItems": ["Bhel Puri", "Batata Puri"],
-        "hygieneRating": 5,
-        "tasteRating": 5,
-        "hospitalityRating": 5,
-        "photoUrl": "https://i.postimg.cc/Fsbnq3tz/bhel-puri-batata-puri.webp"
-
-    },
-    {
-        "id": 2,
-        "name": "Durga Pandit Ka Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.358883, 22.514442]   
-        },
-        "foodItems": ["Special Puchka", "Normal Puchka", "special Alurdam", "Alurdam Puchka", "sweet Puchka", "alurdam churmur"],
-        "hygieneRating": 5,
-        "tasteRating": 5,
-        "hospitalityRating": 5,
-        "photoUrl": "https://i.postimg.cc/Wpg9Fg18/durga-pandit-ka-puchka.webp"
-
-    },
-    {
-        "id": 3,
-        "name": "Maharaja Chat Center",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.358999, 22.514359]   
-        },
-        "foodItems": ["Cheese Puchka", "Pizza Puchka", "Rabri Puchka", "Dahi Puchka"],
-        "hygieneRating": 5,
-        "tasteRating": 5,
-        "hospitalityRating": 5,
-        "photoUrl": "https://i.postimg.cc/Wzw69mDP/maharaja-chat-centre.webp"
-
-    },
-    {
-        "id": 4,
-        "name": "Maharaja Cold Drink Center",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.358988, 22.514390]   
-        },
-        "foodItems": ["Malasa Thumpsup", "Masala Limca", "Masala Pepsi", "Soda Shikanji"],
-        "hygieneRating": 5,
-        "tasteRating": 5,
-        "hospitalityRating": 5,
-        "photoUrl": "https://i.postimg.cc/c4dcvzj1/maharaja-cold-drink-centre.webp"
-
-    },
-    {
-        "id": 5,
-        "name": "Shri Mishri Lal Pandit",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.358937, 22.514427]   
-        },
-        "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
-        "hygieneRating": 5,
-        "tasteRating": 5,
-        "hospitalityRating": 5,
-        "photoUrl": "https://i.postimg.cc/4NFhXFRS/shri-mishri-lal-pandit.webp"
-
-    },
-    {
-        "id": 6,
-        "name": "Shri Thakur Pandit ka Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.358928, 22.514521]   
-        },
-        "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
-        "hygieneRating": 5,
-        "tasteRating": 5,
-        "hospitalityRating": 5,
-        "photoUrl": "https://i.postimg.cc/CLtd3Bjy/Whats-App-Image-2024-06-18-at-18-32-43-20833f5e.webp"
-
-    },
+  
     {
         "id": 7,
         "name": "Puchka Wala",
@@ -997,7 +914,91 @@
     "hygieneRating": 4,
     "tasteRating": 4,
     "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/qBF88yDD/share-chai.webp"}
+"photoUrl":"https://i.postimg.cc/qBF88yDD/share-chai.webp"},
+{
+    "id": 1,
+    "name": "Bhel Puri Batata Puri",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.358976, 22.514412]   
+    },
+    "foodItems": ["Bhel Puri", "Batata Puri"],
+    "hygieneRating": 5,
+    "tasteRating": 5,
+    "hospitalityRating": 5,
+    "photoUrl": "https://i.postimg.cc/Fsbnq3tz/bhel-puri-batata-puri.webp"
+
+},
+{
+    "id": 2,
+    "name": "Durga Pandit Ka Puchka",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.358883, 22.514442]   
+    },
+    "foodItems": ["Special Puchka", "Normal Puchka", "special Alurdam", "Alurdam Puchka", "sweet Puchka", "alurdam churmur"],
+    "hygieneRating": 5,
+    "tasteRating": 5,
+    "hospitalityRating": 5,
+    "photoUrl": "https://i.postimg.cc/Wpg9Fg18/durga-pandit-ka-puchka.webp"
+
+},
+{
+    "id": 3,
+    "name": "Maharaja Chat Center",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.358999, 22.514359]   
+    },
+    "foodItems": ["Cheese Puchka", "Pizza Puchka", "Rabri Puchka", "Dahi Puchka"],
+    "hygieneRating": 5,
+    "tasteRating": 5,
+    "hospitalityRating": 5,
+    "photoUrl": "https://i.postimg.cc/Wzw69mDP/maharaja-chat-centre.webp"
+
+},
+{
+    "id": 4,
+    "name": "Maharaja Cold Drink Center",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.358988, 22.514390]   
+    },
+    "foodItems": ["Malasa Thumpsup", "Masala Limca", "Masala Pepsi", "Soda Shikanji"],
+    "hygieneRating": 5,
+    "tasteRating": 5,
+    "hospitalityRating": 5,
+    "photoUrl": "https://i.postimg.cc/c4dcvzj1/maharaja-cold-drink-centre.webp"
+
+},
+{
+    "id": 5,
+    "name": "Shri Mishri Lal Pandit",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.358937, 22.514427]   
+    },
+    "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
+    "hygieneRating": 5,
+    "tasteRating": 5,
+    "hospitalityRating": 5,
+    "photoUrl": "https://i.postimg.cc/4NFhXFRS/shri-mishri-lal-pandit.webp"
+
+},
+{
+    "id": 6,
+    "name": "Shri Thakur Pandit ka Puchka",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.358928, 22.514521]   
+    },
+    "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
+    "hygieneRating": 5,
+    "tasteRating": 5,
+    "hospitalityRating": 5,
+    "photoUrl": "https://i.postimg.cc/CLtd3Bjy/Whats-App-Image-2024-06-18-at-18-32-43-20833f5e.webp"
+
+}
 
 ]
 
