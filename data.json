@@ -973,9 +973,32 @@
     "hygieneRating": 4,
     "tasteRating": 4,
     "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/JnLZTr5g/sunder-kachori.webp"}
+"photoUrl":"https://i.postimg.cc/JnLZTr5g/sunder-kachori.webp"},
+{
+    "id": 74,
+    "name": "maharaja purely vegeterian",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]   
+    },
+    "foodItems": ["Hing Kachori", "Singara", "gulab jamun", "jalebi", "dhokla"], 
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/KjCBxhgh/maharaja-purely-vegeterian.webp"},
+{
+    "id": 75,
+    "name": "share chai",
+    "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]   
+    },
+    "foodItems": ["Adhrak Chai", "Gud Chai", "masala Chai"],
+    "hygieneRating": 4,
+    "tasteRating": 4,
+    "hospitalityRating": 4,
+"photoUrl":"https://i.postimg.cc/qBF88yDD/share-chai.webp"},
 
-   
 ]
 
 }
