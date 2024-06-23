@@ -8,9 +8,9 @@
             "coordinates": [88.358976, 22.514412]   
         },
         "foodItems": ["Bhel Puri", "Batata Puri"],
-        "hygieneRating": 3,
-        "tasteRating": 3,
-        "hospitalityRating": 3,
+        "hygieneRating": 5,
+        "tasteRating": 5,
+        "hospitalityRating": 5,
         "photoUrl": "https://i.postimg.cc/Fsbnq3tz/bhel-puri-batata-puri.webp"
 
     },
@@ -22,9 +22,9 @@
             "coordinates": [88.358883, 22.514442]   
         },
         "foodItems": ["Special Puchka", "Normal Puchka", "special Alurdam", "Alurdam Puchka", "sweet Puchka", "alurdam churmur"],
-        "hygieneRating": 3,
-        "tasteRating": 3,
-        "hospitalityRating": 3,
+        "hygieneRating": 5,
+        "tasteRating": 5,
+        "hospitalityRating": 5,
         "photoUrl": "https://i.postimg.cc/Wpg9Fg18/durga-pandit-ka-puchka.webp"
 
     },
@@ -36,9 +36,9 @@
             "coordinates": [88.358999, 22.514359]   
         },
         "foodItems": ["Cheese Puchka", "Pizza Puchka", "Rabri Puchka", "Dahi Puchka"],
-        "hygieneRating": 3,
-        "tasteRating": 3.5,
-        "hospitalityRating": 4,
+        "hygieneRating": 5,
+        "tasteRating": 5,
+        "hospitalityRating": 5,
         "photoUrl": "https://i.postimg.cc/Wzw69mDP/maharaja-chat-centre.webp"
 
     },
@@ -50,9 +50,9 @@
             "coordinates": [88.358988, 22.514390]   
         },
         "foodItems": ["Malasa Thumpsup", "Masala Limca", "Masala Pepsi", "Soda Shikanji"],
-        "hygieneRating": 3,
-        "tasteRating": 3.5,
-        "hospitalityRating": 4,
+        "hygieneRating": 5,
+        "tasteRating": 5,
+        "hospitalityRating": 5,
         "photoUrl": "https://i.postimg.cc/c4dcvzj1/maharaja-cold-drink-centre.webp"
 
     },
@@ -64,9 +64,9 @@
             "coordinates": [88.358937, 22.514427]   
         },
         "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
+        "hygieneRating": 5,
+        "tasteRating": 5,
+        "hospitalityRating": 5,
         "photoUrl": "https://i.postimg.cc/4NFhXFRS/shri-mishri-lal-pandit.webp"
 
     },
@@ -78,9 +78,9 @@
             "coordinates": [88.358928, 22.514521]   
         },
         "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
+        "hygieneRating": 5,
+        "tasteRating": 5,
+        "hospitalityRating": 5,
         "photoUrl": "https://i.postimg.cc/CLtd3Bjy/Whats-App-Image-2024-06-18-at-18-32-43-20833f5e.webp"
 
     },
