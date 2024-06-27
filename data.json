@@ -1,1005 +1,4626 @@
 {
-    "vendorData" : [
+  "vendorData": [
+    {
+      "id": 7,
+      "name": "Puchka Wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351977, 22.560087]
+      },
+      "foodItems": ["Puchka", "Puchka Masala"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FsFjrLd7/puchka-wala.webp"
+    },
+    {
+      "id": 8,
+      "name": "Subhash Papad wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352038, 22.560099]
+      },
+      "foodItems": [
+        "Fried Snacks",
+        "Puchka Packet",
+        "Puffed Rice (Murmura)",
+        "Sev",
+        "Bhujia",
+        "Chakli (circular fried snacks)",
+        "Lentils and Pulses",
+        "Chips",
+        "Papad",
+        "Fried Namkeen"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/VkC5mfRJ/Whats-App-Image-2024-06-19-at-14-46-35-5ec8518b.webp"
+    },
+    {
+      "id": 9,
+      "name": "Subhash Papad wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352018, 22.560253]
+      },
+      "foodItems": [
+        "Puffed Rice (Murmura)",
+        "Papad wala",
+        "Sev",
+        "Bhujia",
+        "Chips",
+        "Papad",
+        "Fried Namkeen"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Bv56PmRs/Whats-App-Image-2024-06-19-at-14-46-35-c6bd8150.webp"
+    },
+    {
+      "id": 10,
+      "name": "Wow Chicken",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352032, 22.559962]
+      },
+      "foodItems": ["Chicken Puff"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/xTqcpyNy/Whats-App-Image-2024-06-19-at-14-46-35-29caa01a.webp"
+    },
+    {
+      "id": 11,
+      "name": "kolkata Mocktail, Lassi & Kulfi Corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351956, 22.559728]
+      },
+      "foodItems": ["Mocktail", "Lassi", "Kulfi", "Faluda"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ZnSxFs5c/kokata-Mocktail-Lassi-Kulfi-Corner.webp"
+    },
+    {
+      "id": 12,
+      "name": "Dolly Fast Food",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35259, 22.559206]
+      },
+      "foodItems": ["Roll", "Momo", "Rice", "Chowmein", "Kabab"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/C5TmrLmb/Dolly-Fast-Food.webp"
+    },
+    {
+      "id": 13,
+      "name": "Jay mata di puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352623, 22.559256]
+      },
+      "foodItems": ["Puchka Masala", "Puchka"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/bv4TdwX4/jay-mata-di.webp"
+    },
+    {
+      "id": 14,
+      "name": "Dosa shop",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35275, 22.559573]
+      },
+      "foodItems": ["Masala Dosa", "Idli", "Lassi"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8cRw2Q09/dosa-wala.webp"
+    },
+    {
+      "id": 15,
+      "name": "Ma Vindhyavasini Tea Staller",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352776, 22.559424]
+      },
+      "foodItems": ["Tea", "Masala Tea", "Gud Tea"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/vm51LYgJ/tea-staller.webp"
+    },
+    {
+      "id": 16,
+      "name": "SugarCane Juice Seller",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353017, 22.559386]
+      },
+      "foodItems": ["Sugarcane Juice"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W1Fqz62b/sugar-Cane-juice-seller.webp"
+    },
+    {
+      "id": 17,
+      "name": "Bhel Puri Seller",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353036, 22.559463]
+      },
+      "foodItems": ["Murmura", "Bhel Puri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/v8VKrC3W/Bhel-puri-seller.webp"
+    },
+    {
+      "id": 18,
+      "name": "Sandeep Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.354182, 22.559173]
+      },
+      "foodItems": ["Egg", "Banana", "Water Bottle", "Pan Masala"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/htfTxR0n/sandeep.webp"
+    },
+    {
+      "id": 19,
+      "name": "Sandwich & Cold Drink Seller",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.354653, 22.559179]
+      },
+      "foodItems": [
+        "Paneer Sandwich",
+        "Veg Sandwich",
+        "Water Bottle",
+        "Cold Drink"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/SspMw2bQ/sandwich-and-coldrink-stall.webp"
+    },
+    {
+      "id": 20,
+      "name": "Debashish Sandwich & Drink Seller",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.354666, 22.559125]
+      },
+      "foodItems": [
+        "Egg Sandwich",
+        "Veg Sandwich",
+        "Mango Shake",
+        "jucie",
+        "Cold Drink"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/jj2gL1Dn/Debashish-Sandwich-Drink-Seller.webp"
+    },
+    {
+      "id": 21,
+      "name": "Anirban SugarCane Seller",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.354328, 22.559235]
+      },
+      "foodItems": ["Sugarcane Juice"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/mrgq7D5D/Anirban-Sugar-Cane-Seller.webp"
+    },
+    {
+      "id": 22,
+      "name": "Santosh Pakode wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353095, 22.559376]
+      },
+      "foodItems": ["Onion Pakoda", "Chicken Pakoda"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5y4F2htZ/santosh-pakode-wala.webp"
+    },
+    {
+      "id": 23,
+      "name": "Arun Chat wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352799, 22.559414]
+      },
+      "foodItems": ["Dahi Papdi Chat", "Alu Chat", "Murmura", "Bhel Puri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/k5YHsm0y/arun-murmura-Seller.webp"
+    },
+    {
+      "id": 24,
+      "name": "Pradip Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35077, 22.552784]
+      },
+      "foodItems": ["Puchka Masala", "Puchka Papdi", "Puchka", "Dahi Puchka"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gJvvJyH6/pradip-Puchka.webp"
+    },
+    {
+      "id": 25,
+      "name": "Rakesh Murmura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350919, 22.552843]
+      },
+      "foodItems": ["Papad", "Murmura", "Alu Dum Masala"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/02t7byDZ/rakesh-murmura.webp"
+    },
+    {
+      "id": 26,
+      "name": "Ashok Bhel Puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350694, 22.552818]
+      },
+      "foodItems": ["Bhel Puri", "Murmura"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/G2B5Sfrn/Ashok-bhelpuri.webp"
+    },
+    {
+      "id": 27,
+      "name": "Sudip Murmura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350721, 22.552264]
+      },
+      "foodItems": ["Bhel Puri", "Murmura", "Papad", "Fried Namkeen", "Sev"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/yYNZ4CtR/sudip-murmura.webp"
+    },
+    {
+      "id": 28,
+      "name": "Vardaan Vada Pav",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353503, 22.548629]
+      },
+      "foodItems": ["cheese Vada Pav", "Vada Pav", "Pav"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Hx76t74p/Dipak-Vada-Pav.webp"
+    },
+    {
+      "id": 29,
+      "name": "Chandan Sprout",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353494, 22.548435]
+      },
+      "foodItems": ["Sprout", "Mixture", "Cheewda"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/yYCbvnb2/Chandan-Sprout.webp"
+    },
+    {
+      "id": 30,
+      "name": "Mahesh Puchka wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353553, 22.548592]
+      },
+      "foodItems": ["Puchka Masala", "Puchka", "Puchka Papdi"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/dQ2BtF5S/Mahesh-puchka-wala.webp"
+    },
+    {
+      "id": 31,
+      "name": "Bhaskar Murmura wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353629, 22.548506]
+      },
+      "foodItems": ["Murmura", "Bhel Puri", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/90ZNcqrx/bhaskar-murmura.webp"
+    },
+    {
+      "id": 32,
+      "name": "Anil Chiila wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3534499, 22.548406]
+      },
+      "foodItems": [
+        "Paneer Onion Mix Chiila",
+        "Cheese Onion Mix Chiila",
+        "Onion Chiila"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/RZXpCmZz/chilla.webp"
+    },
+    {
+      "id": 33,
+      "name": "Victoria Soda Shop",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353669, 22.548554]
+      },
+      "foodItems": [
+        "Kesar Badam",
+        "Keshar Pista",
+        "lemon Soda",
+        "Strawberry Soda",
+        "kachha mango soda"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/fyqkTkp9/victoria-soda-shop.webp"
+    },
+    {
+      "id": 34,
+      "name": "Manoj’s Masti Chaat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353532, 22.548423]
+      },
+      "foodItems": [
+        "Kesar Badam",
+        "Keshar Pista",
+        "lemon Soda",
+        "Strawberry Soda",
+        "kachha mango soda"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/xdNGrVk5/Manojs-Masti-Chaat.webp"
+    },
+    {
+      "id": 35,
+      "name": "Ravi Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349054, 22.545627]
+      },
+      "foodItems": [
+        "Sev Puri",
+        "Churmur",
+        "Sandwich Soda",
+        "Aloo Puchka",
+        "Dahi Puchka"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Xv55HKhD/Ravi-puchka.webp"
+    },
+    {
+      "id": 36,
+      "name": "Raju Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349062, 22.54565]
+      },
+      "foodItems": [
+        "Ragda pattis",
+        "Ghughni Puchka",
+        "Churmur",
+        "Puchka Masala",
+        "Puchka Papdi",
+        "Aloo Puchka",
+        "Dahi Puchka"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/66frx0Qk/raju-puchka.webp"
+    },
+    {
+      "id": 37,
+      "name": "Rana Chaat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349027, 22.545449]
+      },
+      "foodItems": ["Chaat", "Alu Chat", "Masala Chat"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/x1hH3psz/rana-chat.webp"
+    },
+    {
+      "id": 38,
+      "name": "Rajasthani Famous Chat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.348975, 22.545455]
+      },
+      "foodItems": ["Kachori Chaat", "Papri Chat", "Samosa Chat", "mixed Chat"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/SRdCLy5S/Rajasthani-Famous-Chat.webp"
+    },
+    {
+      "id": 39,
+      "name": "Food Quest",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349003, 22.545346]
+      },
+      "foodItems": [
+        "Veg Maggi",
+        "Cheese Maggi",
+        "Veg Pasta",
+        "Mix Cheese",
+        "Pasta"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/MKw9yHcS/food-quest.webp"
+    },
+    {
+      "id": 40,
+      "name": "Maya Ram",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349007, 22.545246]
+      },
+      "foodItems": [
+        "Veg Thali",
+        "Fried Rice",
+        "Veg Maggi",
+        "Cheese Maggi",
+        "Pasta"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9QMtp7Cv/Maya-Ram.webp"
+    },
+    {
+      "id": 41,
+      "name": "Sanjay Churmur",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.34861, 22.541614]
+      },
+      "foodItems": ["Churmur", "Puffed Rice (Murmura)", "Mixture"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/26FZmkCQ/sanjay-churmur.webp"
+    },
+    {
+      "id": 42,
+      "name": "Haripada",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.348527, 22.541658]
+      },
+      "foodItems": [
+        "Roasted Gram (Chana)",
+        "Puffed Rice (Murmura)",
+        "Flattened Rice (Poha)",
+        "Sev"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/J4QPK8JB/haribada.webp"
+    },
+    {
+      "id": 43,
+      "name": "Nirmal Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.331733, 22.531724]
+      },
+      "foodItems": ["Puchka Masala", "Puchka Papdi", "Churmur", "Sev Puchka"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/52R5k2tj/niraml-puchka.webp"
+    },
+    {
+      "id": 44,
+      "name": "Chaurasiya Bombay Sandwich Centre",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.330316, 22.522509]
+      },
+      "foodItems": ["Veg Sandwich", "Paneer Sandwich", "Cheese Sandiwich"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Z5TDhnZc/Chaurasiya-Bombay-Sandwich-Centre.webp"
+    },
+    {
+      "id": 45,
+      "name": "Thela Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.330424, 22.52233]
+      },
+      "foodItems": ["Alu Puchka", "Puchka Masala", "Puchka Papdi"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/rswKk5nT/thela-puchka.webp"
+    },
+    {
+      "id": 46,
+      "name": "Harilal churmur",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.330481, 22.522403]
+      },
+      "foodItems": ["Churmur", "Sev", "Murmura"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/SKndyzPW/Harilal-churmur.webp"
+    },
+    {
+      "id": 47,
+      "name": "Basudev Masala Puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.33038, 22.522271]
+      },
+      "foodItems": ["Batata Puri", "Masala puri", "papdi chaat", "Bread chat"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/j5GFVhdw/basudev.webp"
+    },
+    {
+      "id": 48,
+      "name": "Bengal Sharbet House",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.343273, 22.547787]
+      },
+      "foodItems": [
+        "Aam Pora Sharbat",
+        "Gondhoraj Lemon Sharbat",
+        "Bel Panna",
+        "Rose Milk"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/fTK2mFDD/bengal-sharbet-house.webp"
+    },
+    {
+      "id": 49,
+      "name": "Bombay Famour Chat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.343194, 22.54782]
+      },
+      "foodItems": ["Batata Puri", "Masala Puri", "Papdi Chaat", "Bhel Puri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/YCCX33Cg/bombat-famour-chat.webp"
+    },
+    {
+      "id": 50,
+      "name": "Bhel House",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.342021, 22.541439]
+      },
+      "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/bN8VG8Xm/bhel-house.webp"
+    },
+    {
+      "id": 51,
+      "name": "Bong momo magic",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346438, 22.524439]
+      },
+      "foodItems": [
+        "Steamed Momo",
+        "Fried Momo",
+        "Tandoori Momo",
+        "Schezwan Momo"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/mZ762knc/bong-momo-magic.webp"
+    },
+    {
+      "id": 52,
+      "name": "chat adda",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353566, 22.545055]
+      },
+      "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/C1kJ1rcy/chat-adda.webp"
+    },
+    {
+      "id": 53,
+      "name": "chiruni pav bhaji",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.333022, 22.559292]
+      },
+      "foodItems": [
+        "Pav Bhaji",
+        "Cheese Pav Bhaji",
+        "Masala Pav",
+        "Butter Pav Bhaji"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/g2tgBZx7/chiruni-pav-bhaji.webp"
+    },
+    {
+      "id": 54,
+      "name": "ganga puchka corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.342068, 22.541431]
+      },
+      "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/R03grZfZ/ganga-puchka-corner.webp"
+    },
+    {
+      "id": 55,
+      "name": "ganguly pan pala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346238, 22.525639]
+      },
+      "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/tgL29Gtt/ganguly-pan-palace.webp"
+    },
+    {
+      "id": 56,
+      "name": "kolkata pan kutir",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.354545, 22.538032]
+      },
+      "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/qBcjHYty/kolkata-pan-kutir.webp"
+    },
+    {
+      "id": 57,
+      "name": "laxman bhel puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.354527, 22.538032]
+      },
+      "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/RVMGSRf8/laxman-bhel-puri.webp"
+    },
+    {
+      "id": 58,
+      "name": "maya bose jai jawan stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.333103, 22.559414]
+      },
+      "foodItems": ["Egg Roll", "Chicken Roll", "Paneer Roll", "Mutton Roll"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/7h49T1R5/maya-bose-jai-jawan-stall.webp"
+    },
+    {
+      "id": 59,
+      "name": "mishti kachori",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346419, 22.524201]
+      },
+      "foodItems": ["Kachori", "Alur Dom", "Singara", "Khasta Kachori"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FzxZbdtD/mishti-kachori.webp"
+    },
+    {
+      "id": 60,
+      "name": "misti pan masala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.33038, 22.522271]
+      },
+      "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/y8GTTC54/misti-pan-masala.webp"
+    },
+    {
+      "id": 61,
+      "name": "mohan noodle",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344162, 22.540687]
+      },
+      "foodItems": [
+        "Hakka Noodles",
+        "Schezwan Noodles",
+        "Chilli Garlic Noodles",
+        "Mixed Veg Noodles"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/GhqKHyxp/mohan-noodle.webp"
+    },
+    {
+      "id": 62,
+      "name": "murmura mastaan",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.34424, 22.540669]
+      },
+      "foodItems": ["Jhal Muri", "Churmur", "Bhel Puri", "Masala Muri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4xy5txWQ/murmura-mastaan.webp"
+    },
+    {
+      "id": 63,
+      "name": "nirvana nimbu pani",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.333028, 22.559356]
+      },
+      "foodItems": [
+        "Nimbu Pani",
+        "Pudina Nimbu Pani",
+        "Masala Soda",
+        "Jal Jeera"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/XvykHDSZ/nirvana-nimbu-pani.webp"
+    },
+    {
+      "id": 64,
+      "name": "puchka babu",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353616, 22.545019]
+      },
+      "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/vBrLMgmb/puchka-babu.webp"
+    },
+    {
+      "id": 65,
+      "name": "puchka-pritam",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]
+      },
+      "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/mDfN0NBm/puchka-pritam.webp"
+    },
+    {
+      "id": 66,
+      "name": "raja chat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.342006, 22.541402]
+      },
+      "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/vHHLFmww/raja-chat.webp"
+    },
+    {
+      "id": 67,
+      "name": "raja pan masala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346325, 22.525736]
+      },
+      "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ZnJPqb93/raja-pan-masala.webp"
+    },
+    {
+      "id": 68,
+      "name": "saraswati murmura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346436, 22.524117]
+      },
+      "foodItems": ["Jhal Muri", "Churmur", "Bhel Puri", "Masala Muri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ry9CPrb9/saraswati-murmura.webp"
+    },
+    {
+      "id": 69,
+      "name": "shibuji stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353508, 22.545035]
+      },
+      "foodItems": [
+        "Chana Zor Garam",
+        "Masala Papad",
+        "Bhel Puri",
+        "Jhal Muri"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/LsfjBYLL/shibuji.webp"
+    },
+    {
+      "id": 70,
+      "name": "special bhej puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.333012, 22.559309]
+      },
+      "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/BnjTbwvh/spl-bhej-puri.webp"
+    },
+    {
+      "id": 71,
+      "name": "spl chaat corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.343265, 22.54776]
+      },
+      "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9QsG7tRc/spl-chaat-corner.webp"
+    },
+    {
+      "id": 72,
+      "name": "spl pav bhaji",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.343851, 22.563527]
+      },
+      "foodItems": [
+        "Pav Bhaji",
+        "Cheese Pav Bhaji",
+        "Masala Pav",
+        "Butter Pav Bhaji"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9MYTK6xf/spl-pav-bhaji.webp"
+    },
+    {
+      "id": 73,
+      "name": "sunder kachori",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]
+      },
+      "foodItems": ["Kachori", "Alur Dom", "Singara", "Khasta Kachori"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/JnLZTr5g/sunder-kachori.webp"
+    },
+    {
+      "id": 74,
+      "name": "maharaja purely vegeterian",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]
+      },
+      "foodItems": [
+        "Hing Kachori",
+        "Singara",
+        "gulab jamun",
+        "jalebi",
+        "dhokla"
+      ],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/KjCBxhgh/maharaja-purely-vegeterian.webp"
+    },
+    {
+      "id": 75,
+      "name": "share chai",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344259, 22.540674]
+      },
+      "foodItems": ["Adhrak Chai", "Gud Chai", "masala Chai"],
+      "hygieneRating": 4,
+      "tasteRating": 4,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/qBF88yDD/share-chai.webp"
+    },
+    {
+      "id": 76,
+      "name": "Bhojohori Manna",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346054, 22.573532]
+      },
+      "foodItems": [
+        "Fried Fritters (Telebhaja)",
+        "Aloo Chop",
+        "Yellow Fried Snacks (possibly Pakoras)",
+        "Fish Curry",
+        "Egg Curry",
+        "Vegetable Curry"
+      ],
+
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/BbSS42xF/IMG-20240624-WA0004.webp"
+    },
+    {
+      "id": 77,
+      "name": "Gupshup Chai Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346053, 22.346053]
+      },
+      "foodItems": [
+        "Tea (Chai)",
+        "Boiled Eggs",
+        "Green Chilies",
+        "Chopped Onions",
+        "Lemon Wedges",
+        "Bread (possibly for making toast or sandwiches)",
+        "Various Condiments and Spices"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/pVCVk1HJ/IMG-20240624-WA0006.webp"
+    },
+    {
+      "id": 78,
+      "name": "Bengal Rotiwala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345928, 22.573567]
+      },
+      "foodItems": [
+        "Roti",
+        "Paratha",
+        "Puri",
+        "Chutney",
+        "Pickle",
+        "Dal (Lentils)",
+        "Vegetable Curry",
+        "Water"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/c4JxzM1y/IMG-20240624-WA0008.webp"
+    },
+    {
+      "id": 79,
+      "name": "Shri Noodle",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.34591, 22.573575]
+      },
+      "foodItems": [
+        "Chicken Hakka Noodles",
+        "Veg Schezwan Noodles",
+        "Noodle",
+        "Chowmein"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/YC5tj56M/IMG-20240624-WA0009.webp"
+    },
+    {
+      "id": 80,
+      "name": "Mehta murmura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347169, 22.572669]
+      },
+      "foodItems": [
+        "Bhel Puri",
+        "Jhal Muri",
+        "Churmur",
+        "Masala Puri",
+        "Puffed Rice (Murmura)"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/25nrW0Gv/IMG-20240624-WA0011.webp"
+    },
+    {
+      "id": 81,
+      "name": "Pakoda and Papad",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35172, 22.570008]
+      },
+      "foodItems": [
+        "Onion Pakoda",
+        "Chicken Pakoda",
+        "Aloo Pakoda",
+        "Masala Papad"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/sfTy5QYn/IMG-20240625-WA0003.webp"
+    },
+    {
+      "id": 82,
+      "name": "Chola Batura Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35992, 22.568462]
+      },
+      "foodItems": ["Chola Batura", "Dosa", "lassi"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/j2SbGtbQ/IMG-20240625-WA0005.webp"
+    },
+    {
+      "id": 83,
+      "name": "ganga Pakoda",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353434, 22.569276]
+      },
+      "foodItems": ["Bread Pakoda", "Aloo Pakoda", "Onion Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Kjp2bwcX/IMG-20240625-WA0006.webp"
+    },
+    {
+      "id": 84,
+      "name": "Shri Chaat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353208, 22.570606]
+      },
+      "foodItems": ["Chaat", "Masala Chat", "Samosa Chat", "Alu Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/JhCWRb8h/IMG-20240625-WA0008.webp"
+    },
+    {
+      "id": 85,
+      "name": "Nashta Centre",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353021, 22.569235]
+      },
+      "foodItems": ["Chat", "Samosa", "Cheese Maggi", "Onion Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gk5WBCB8/IMG-20240625-WA0009.webp"
+    },
+    {
+      "id": 86,
+      "name": "Ram Tea Centre",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353174, 22.572029]
+      },
+      "foodItems": ["Tea", "Coffee", "Masala Tea"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/V6YQCmdQ/IMG-20240625-WA0012.webp"
+    },
+    {
+      "id": 87,
+      "name": "Ram chat centre",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352787, 22.574336]
+      },
+      "foodItems": ["Chaat", "Masala Chat", "Samosa Chat", "Alu Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/MZ32nkwN/IMG-20240625-WA0014.webp"
+    },
+    {
+      "id": 88,
+      "name": "Manoharam food",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350627, 22.575258]
+      },
+      "foodItems": ["Small tea", "Big Tea", "cofee", "kachori", "Samosa"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/j25pMcHM/IMG-20240625-WA0015.webp"
+    },
+    {
+      "id": 89,
+      "name": "Spl chat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350572, 22.575209]
+      },
+      "foodItems": ["Chaat", "Masala Chat", "Samosa Chat", "Alu Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/sxNtqWKs/IMG-20240625-WA0016.webp"
+    },
+    {
+      "id": 90,
+      "name": "hemant nashta",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349942, 22.574845]
+      },
+      "foodItems": ["Veg Maggi", "Fried Rice", "Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/HsJG5Ssx/IMG-20240625-WA0017.webp"
+    },
+    {
+      "id": 91,
+      "name": "manohar chat stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3523, 22.574348]
+      },
+      "foodItems": ["Chaat", "Masala Chat", "Samosa Chat", "Alu Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/tTRwgkM9/IMG-20240625-WA0022.webp"
+    },
+    {
+      "id": 92,
+      "name": "shri bhel puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349937, 22.574741]
+      },
+      "foodItems": ["Bhel Puri", "Churmur", "papdi chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/7hdWmkYL/IMG-20240625-WA0023.webp"
+    },
+    {
+      "id": 93,
+      "name": "lal chaat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349937, 22.574741]
+      },
+      "foodItems": ["Chaat", "Masala Chat", "Samosa Chat", "Alu Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ZnCQ8Rmg/IMG-20240625-WA0025.webp"
+    },
+    {
+      "id": 94,
+      "name": "utsav nashta",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349836, 22.574323]
+      },
+      "foodItems": ["Chola Batura", "kachori", "Papad"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/rwSPC768/IMG-20240625-WA0027.webp"
+    },
+    {
+      "id": 95,
+      "name": "ramji chaat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349734, 22.574219]
+      },
+      "foodItems": ["Chaat", "Masala Chat", "Samosa Chat", "Alu Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W48YxrbC/IMG-20240625-WA0030.webp"
+    },
+    {
+      "id": 96,
+      "name": "Puff stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349728, 22.574183]
+      },
+      "foodItems": ["veg puff", "egg puff", "roll"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gJBS2WhK/IMG-20240625-WA0031.webp"
+    },
+    {
+      "id": 97,
+      "name": "puff babu",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.348306, 22.575036]
+      },
+      "foodItems": ["veg puff", "egg puff", "roll", "bread", "milk"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/prh096YM/IMG-20240625-WA0034.webp"
+    },
+    {
+      "id": 98,
+      "name": "pyaj pakoda wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347456, 22.575387]
+      },
+      "foodItems": ["Onion Pakoda", "masala pyaj pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/sfMy9fTs/IMG-20240625-WA0036.webp"
+    },
+    {
+      "id": 99,
+      "name": "babu biryani",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346551, 22.575002]
+      },
+      "foodItems": [
+        "veh biryani",
+        "non-veg briyani",
+        "full biryani",
+        "half biryani"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FFwvPt6c/IMG-20240625-WA0037.webp"
+    },
+    {
+      "id": 100,
+      "name": "chima fast food center",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346128, 22.574418]
+      },
+      "foodItems": [
+        "Chowmein",
+        "Rice",
+        "Pasta",
+        "Egg Roll",
+        "Momo",
+        "lolly pop",
+        "Chicken pakora",
+        "veg pakora"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/25HRhgv1/IMG-20240625-WA0040.webp"
+    },
+    {
+      "id": 101,
+      "name": "kachori dukan",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349856, 22.574573]
+      },
+      "foodItems": ["kachori", "masala kachori", "special kachori"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/pdVM9P9N/IMG-20240625-WA0042.webp"
+    },
+    {
+      "id": 102,
+      "name": "dosa stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346538, 22.575008]
+      },
+      "foodItems": ["masala dosa", "plain dosa", "onion dosa", "special dosa"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W3KBfr5j/IMG-20240625-WA0043.webp"
+    },
+    {
+      "id": 103,
+      "name": "shri ram nashta",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347751, 22.575192]
+      },
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/hvdkFjYm/IMG-20240625-WA0045.webp"
+    },
+    {
+      "id": 104,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345566, 22.573552]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/jSXGYBMM/IMG-20240625-WA0048.webp"
+    },
+    {
+      "id": 105,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346071, 22.574231]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/YSCTr8VM/IMG-20240625-WA0050.webp"
+    },
+    {
+      "id": 106,
+      "name": "muri plaza",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345305, 22.57311]
+      },
+     "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/jj3mLP0N/IMG-20240625-WA0052.webp"
+    },
+    {
+      "id": 107,
+      "name": "batura plaza",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345356, 22.573113]
+      },
+      "foodItems":["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/VvnVGhSB/IMG-20240625-WA0053.webp"
+    },
+    {
+      "id": 108,
+      "name": "kullad chai",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351814, 22.569969]
+      },
+      "foodItems":["Meetha Pan Masala", "Sada Pan Masala", "Banarasi Pan Masala", "Mint Pan Masala", "Rose Pan Masala"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/G3yVm4M8/IMG-20240625-WA0055.webp"
+    },
+    {
+      "id": 109,
+      "name": "bhatura plaza",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35353, 22.573299]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/fTQFtMFH/IMG-20240625-WA0057.webp"
+    },
+    {
+      "id": 110,
+      "name": "Flavors of Chai",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351763, 22.569984]
+      },
+      "foodItems": ["Masala Chai", "Ginger Tea", "Lemon Tea", "Green Tea", "Black Tea", "Elaichi Tea"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/mrk6fkzr/IMG-20240625-WA0060.webp"
+    },
+    {
+      "id": 111,
+      "name": "Street Style Pakoda Corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352537, 22.567916]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FRJWz6x5/IMG-20240625-WA0062.webp"
+    },
+    {
+      "id": 112,
+      "name": "steam momo & fry momo",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352628, 22.569624]
+      },
+      "foodItems": ["steam Chicken momo", "steam veg momo","fry chicken momo", "fry veg momo"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0jRtwCt6/IMG-20240625-WA0063.webp"
+    },
+    {
+      "id": 113,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352537, 22.567916]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/BZH7Gd62/IMG-20240625-WA0066.webp"
+    },
+    {
+      "id": 114,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351872, 22.566631]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/CL0PMmBX/IMG-20240625-WA0067.webp"
+    },
+    {
+      "id": 115,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352825, 22.568103]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8Pby7ML5/IMG-20240625-WA0068.webp"
+    },
+    {
+      "id": 116,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353217, 22.569852]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/jSdMP2hh/IMG-20240625-WA0069.webp"
+    },
+    {
+      "id": 117,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353187, 22.569819]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/hvBrjtjT/IMG-20240625-WA0074.webp"
+    },
+    {
+      "id": 118,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353592, 22.573494]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/J05QBCDg/IMG-20240625-WA0075.webp"
+    },
+    {
+      "id": 119,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353592, 22.573483]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/65BcxqFN/IMG-20240625-WA0076.webp"
+    },
+    {
+      "id": 120,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35301, 22.574271]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/PfWy7Y34/IMG-20240625-WA0077.webp"
+    },
+    {
+      "id": 121,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35306, 22.574286]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ZqvFxdv6/IMG-20240625-WA0078.webp"
+    },
+    {
+      "id": 122,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352928, 22.574225]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/kMvNs9GY/IMG-20240625-WA0083.webp"
+    },
+    {
+      "id": 123,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352837, 22.574224]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/GtKkmP6n/IMG-20240625-WA0085.webp"
+    },
+    {
+      "id": 124,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352492, 22.57442]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/TY2VHSWd/IMG-20240625-WA0086.webp"
+    },
+    {
+      "id": 125,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352652, 22.574318]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/2SMnyS9y/IMG-20240625-WA0089.webp"
+    },
+    {
+      "id": 126,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352835, 22.574243]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ydz9hrHz/IMG-20240625-WA0091.webp"
+    },
+    {
+      "id": 127,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352103, 22.574517]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/vBLn0LYx/IMG-20240625-WA0093.webp"
+    },
+    {
+      "id": 128,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352357, 22.574424]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/VvKC8fbY/IMG-20240625-WA0095.webp"
+    },
+    {
+      "id": 129,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351881, 22.574582]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/15Yq7zQB/IMG-20240625-WA0096.webp"
+    },
+    {
+      "id": 130,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351943, 22.574525]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/zXfhkg93/IMG-20240625-WA0098.webp"
+    },
+    {
+      "id": 131,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35184, 22.574591]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/tTyZnZ3q/IMG-20240625-WA0099.webp"
+    },
+    {
+      "id": 132,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35088, 22.575354]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W40q46JY/IMG-20240625-WA0101.webp"
+    },
+    {
+      "id": 133,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350647, 22.575262]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/d3NLf5z3/IMG-20240625-WA0105.webp"
+    },
+    {
+      "id": 134,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349775, 22.574295]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/QNf9VMHD/IMG-20240625-WA0106.webp"
+    },
+    {
+      "id": 135,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.350004, 22.574729]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/RV8WQb7b/IMG-20240625-WA0108.webp"
+    },
+    {
+      "id": 136,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349788, 22.574265]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/s2P1zjtt/IMG-20240625-WA0109.webp"
+    },
+    {
+      "id": 137,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349702, 22.574001]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/kGHgsBbt/IMG-20240625-WA0113.webp"
+    },
+    {
+      "id": 138,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347931, 22.575139]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/qMtRRXPc/IMG-20240625-WA0117.webp"
+    },
+    {
+      "id": 139,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.349764, 22.574296]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/QxRMWKD2/IMG-20240625-WA0118.webp"
+    },
+    {
+      "id": 140,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.348345, 22.574895]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/T3g3j2Yp/IMG-20240625-WA0119.webp"
+    },
+    {
+      "id": 141,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.47724, 22.575228]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/50N9Mw5C/IMG-20240625-WA0122.webp"
+    },
+    {
+      "id": 142,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347946, 22.575118]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/pr3P84wf/IMG-20240625-WA0124.webp"
+    },
+    {
+      "id": 143,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347653, 22.575235]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/2y1z1rKj/IMG-20240625-WA0126.webp"
+    },
+    {
+      "id": 144,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347077, 22.575531]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/YStM11ss/IMG-20240625-WA0130.webp"
+    },
+    {
+      "id": 145,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346819, 22.575424]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W4SjSdRb/IMG-20240625-WA0131.webp"
+    },
+    {
+      "id": 146,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346936, 22.575538]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/G22RfbrP/IMG-20240625-WA0132.webp"
+    },
+    {
+      "id": 147,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346544, 22.575011]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8zRTJytv/IMG-20240625-WA0133.webp"
+    },
+    {
+      "id": 148,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346525, 22.574979]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/NGK99cTr/IMG-20240625-WA0135.webp"
+    },
+    {
+      "id": 149,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344677, 22.572175]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/6pfyJ5sF/IMG-20240625-WA0139.webp"
+    },
+    {
+      "id": 150,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346081, 22.571486]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Vk8dV0hj/IMG-20240625-WA0140.webp"
+    },
+    {
+      "id": 151,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346756, 22.57128]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/vm8DQFbT/IMG-20240625-WA0142.webp"
+    },
+    {
+      "id": 152,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347204, 22.571233]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/QNKCNqGQ/IMG-20240625-WA0145.webp"
+    },
+    {
+      "id": 153,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347062, 22.571254]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/28p61BrP/IMG-20240625-WA0147.webp"
+    },
+    {
+      "id": 154,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347338, 22.571183]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4ycx8XbL/IMG-20240625-WA0148.webp"
+    },
+    {
+      "id": 155,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345941, 22.569365]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4xPN2LVg/IMG-20240625-WA0149.webp"
+    },
+    {
+      "id": 156,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.34583, 22.569229]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0NH5PzVX/IMG-20240625-WA0153.webp"
+    },
+    {
+      "id": 157,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344887, 22.569671]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gj3GVNm1/IMG-20240625-WA0155.webp"
+    },
+    {
+      "id": 158,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345544, 22.569874]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/y6R6CYcn/IMG-20240625-WA0156.webp"
+    },
+    {
+      "id": 159,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344887, 22.569671]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/cLxd3Rj5/IMG-20240625-WA0159.webp"
+    },
+    {
+      "id": 160,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344711, 22.570141]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/DzmFj27r/IMG-20240625-WA0160.webp"
+    },
+    {
+      "id": 161,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.34484, 22.570386]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8zZNmFgk/IMG-20240625-WA0161.webp"
+    },
+    {
+      "id": 162,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344696, 22.570148]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4d9GGB7n/IMG-20240625-WA0164.webp"
+    },
+    {
+      "id": 163,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.344826, 22.570257]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5y5MYymV/IMG-20240625-WA0166.webp"
+    },
+    {
+      "id": 164,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345024, 22.570631]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5tZcsL7J/IMG-20240625-WA0168.webp"
+    },
+    {
+      "id": 165,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345004, 22.570662]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/D0T9TF3Y/IMG-20240625-WA0169.webp"
+    },
+    {
+      "id": 166,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345095, 22.570698]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/qMQ999bj/IMG-20240625-WA0173.webp"
+    },
+    {
+      "id": 167,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345057, 22.570712]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/029TX8fz/IMG-20240625-WA0174.webp"
+    },
+    {
+      "id": 168,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.345952, 22.571564]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/L8bGsjMP/IMG-20240625-WA0176.webp"
+    },
+    {
+      "id": 169,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346775, 22.572094]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W3MySKqm/IMG-20240625-WA0178.webp"
+    },
+    {
+      "id": 170,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.347136, 22.572672]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3N1cQvBd/IMG-20240625-WA0180.webp"
+    },
+    {
+      "id": 171,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346915, 22.573053]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8Py0yLcY/IMG-20240625-WA0183.webp"
+    },
+    {
+      "id": 172,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346792, 22.572118]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FH7nw1JH/IMG-20240625-WA0186.webp"
+    },
+    {
+      "id": 173,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346503, 22.573116]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/zfh2XM7m/IMG-20240625-WA0187.webp"
+    },
+    {
+      "id": 174,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.346144, 22.573452]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/tTHS15vs/IMG-20240625-WA0188.webp"
+    },
+
+    {
+      "id": 175,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351514, 22.569994]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Bv2NGFZ4/IMG-20240625-WA0195.webp"
+    },
+    {
+      "id": 176,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351102, 22.569923]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Y9kR2Sjg/IMG-20240625-WA0196.webp"
+    },
+    {
+      "id": 177,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35172, 22.570008]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/RhpLTQdQ/IMG-20240625-WA0199.webp"
+    },
+    {
+      "id": 178,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352405, 22.569591]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/MKXDpNZs/IMG-20240625-WA0201.webp"
+    },
+    {
+      "id": 179,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351498, 22.569863]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/pLFJDjFz/IMG-20240625-WA0202.webp"
+    },
+    {
+      "id": 180,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352888, 22.5689]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/2ytnWjj0/IMG-20240625-WA0204.webp"
+    },
+    {
+      "id": 181,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351471, 22.569903]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9fBTpYFR/IMG-20240625-WA0208.webp"
+    },
+    {
+      "id": 182,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352545, 22.569593]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/xCTmFNcs/IMG-20240625-WA0210.webp"
+    },
+    {
+      "id": 183,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352764, 22.56958]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/sDtpD2NX/IMG-20240625-WA0211.webp"
+    },
+    {
+      "id": 184,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352501, 22.568099]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8kYvt5DH/IMG-20240625-WA0212.webp"
+    },
+    {
+      "id": 185,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352068, 22.566872]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/jS07YFDn/IMG-20240625-WA0213.webp"
+    },
+    {
+      "id": 186,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352838, 22.568789]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/d1179Mxp/IMG-20240625-WA0217.webp"
+    },
+    {
+      "id": 187,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352761, 22.567517]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/44j5nwKs/IMG-20240625-WA0219.webp"
+    },
+    {
+      "id": 188,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352634, 22.56807]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/NGKDgZjd/IMG-20240625-WA0222.webp"
+    },
+    {
+      "id": 189,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35251, 22.56786]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/JhT38QVw/IMG-20240625-WA0223.webp"
+    },
+    {
+      "id": 190,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351964, 22.566701]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0QbYyJPz/IMG-20240625-WA0225.webp"
+    },
+    {
+      "id": 191,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.353056, 22.568917]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/cH2Qg4LX/IMG-20240625-WA0226.webp"
+    },
+    {
+      "id": 192,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352598, 22.567709]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/T25j8mtS/IMG-20240625-WA0227.webp"
+    },
+    {
+      "id": 193,
+      "name": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3519, 22.566481]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/GpSDVhGd/IMG-20240625-WA0230.webp"
+    },
+    {
+      "id": 194,
+      "name": "chai",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352869, 22.568255]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W3FZvLwr/IMG-20240625-WA0231.webp"
+    },
+    {
+      "id": 195,
+      "name": "Kachori stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.35192, 22.566456]
+      },
+      "foodItems": ["Khasta Kachori", "masala kachori", "Hing Kachori"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/mDvHZXmn/IMG-20240625-WA0233.webp"
+    },
+
+    {
+      "id": 196,
+      "name": "riddhi puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88352135.3, 22.543573]
+      },
+      "foodItems": [
+        "Special Puchka",
+        "Normal Puchka",
+        "special Alurdam",
+        "Alurdam Puchka",
+        "sweet Puchka",
+        "alurdam churmur"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/GmFnCBRw/IMG-20240626-WA0009.webp"
+    },
+    {
+      "id": 197,
+      "name": "sai biscuits and Cookies",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351940, 22.543289]
+      },
+      "foodItems": ["Biscuit", "Cookies", "Toast", "Bread", "brown bread"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FF64g5pq/IMG-20240626-WA0010.webp"
+    },
+    {
+      "id": 198,
+      "name": "sai chana",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352071, 22.543517]
+      },
+      "foodItems": [
+        "Roasted Gram (Chana)",
+        "Puffed Rice (Murmura)",
+        "Flattened Rice (Poha)",
+        "Sev"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/c48NF95J/IMG-20240626-WA0018.webp"
+    },
+    {
+      "id": 199,
+      "name": "Sharma food corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351995, 22.543287]
+      },
+      "foodItems": ["Veg machurian", "alu dum", "paneer chat", "palak paneer", "chilli paneer", "tadka", "rajma", "dhoka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3w35JKry/IMG-20240626-WA0019.webp"
+    },
+    {
+      "id": 200,
+      "name": "Chirag Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351970, 22.543290]
+      },
+      "foodItems": ["Veg machurian", "alu dum", "paneer chat", "palak paneer", "chilli paneer", "tadka", "rajma", "dhoka"],
+
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/xCFWRMvH/IMG-20240626-WA0020.webp"
+    },
+    {
+      "id": 201,
+      "name": "Sharman cold drink and beverage",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351931, 22.543260]
+      },
+      "foodItems": ["Shikanji", "Masala Cola", "Lemon Soda", "Mango Lassi"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/44YdT1FD/IMG-20240626-WA0022.webp"
+    },
+    {
+      "id": 202,
+      "name": "Rasoi Bhatura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.352005, 22.543463]
+      },
+      "foodItems":["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5yhDcJk2/IMG-20240626-WA0023.webp"
+    },
+    {
+      "id": 203,
+      "name": "Swadisht Chole Bhature",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351926, 22.543293]
+      },
+      "foodItems":["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/NGZ0Gr35/IMG-20240626-WA0024.webp"
+    },
+    {
+      "id": 204,
+      "name": "Rasoi Bhatura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351966, 22.543242]
+      },
+      "foodItems":["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/q7mkPtcB/IMG-20240626-WA0025.webp"
+    },
+    {
+      "id": 205,
+      "name": "Tasty Chowmein",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351906, 22.543216]
+      },
+      "foodItems": ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gJnYmY4V/IMG-20240626-WA0027.webp"
+    },
+    {
+      "id": 206,
+      "name": "Chole Bhature Darbar",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351908, 22.543214]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FR8hK2n2/IMG-20240626-WA0031.webp"
+    },
+    {
+      "id": 207,
+      "name": "Mithaas Fruits",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351988, 22.543174]
+      },
+      "foodItems": ["Mango", "Banana", "Papaya", "Watermelon"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/k55Cvn00/IMG-20240626-WA0036.webp"
+    },
+    {
+      "id": 211,
+      "name": "Spicy Schezwan",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351968, 22.543160]
+      },
+      "foodItems":["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/g0BWMCdn/IMG-20240626-WA0039.webp"
+    },
+    {
+      "id": 212,
+      "name": "Masaledar Muri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351901, 22.543145]
+      },
+      "foodItems":["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5y8W2jzC/IMG-20240626-WA0040.webp"
+    },
+    {
+      "id": 213,
+      "name": "Anda Adda",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351949, 22.543103]
+      },
+      "foodItems":["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/nVmJkSWh/IMG-20240626-WA0044.webp"
+    },
+    {
+      "id": 215,
+      "name": "food plaza ratan",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351915, 22.543055]
+      },
+      "foodItems": ["Veg Sandwich", "Egg Sandwich", "chicken Sandwich", "grill veg sandwich", "Cheese Sandiwich"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/VLBcyrmy/IMG-20240626-WA0046.webp"
+    },
+    {
+      "id": 216,
+      "name": "grill sandwich",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.351892, 22.543059]
+      },
+      "foodItems": ["Veg Sandwich", "Egg Sandwich", "chicken Sandwich", "grill veg sandwich", "Cheese Sandiwich"],
+
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FRJ2T1DB/IMG-20240626-WA0048.webp"
+    },
+    {
+      "id": 217,
+      "name": "Mishti Mukh",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems": ["Rasgulla", "Sandesh", "Mishti Doi", "Cham Cham"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/7h8jdDRY/IMG-20240626-WA0049.webp"
+    },
+    {
+      "id": 220,
+      "name": "Swadisht Puchka",
+      "location": {
+        "type": "Point",
+       "coordinates": [88.351887, 22.543106]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/t4CwLBBP/IMG-20240626-WA0091.webp"
+    },
+    {
+      "id": 221,
+      "name": "Masaledar Golgappa",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.355926, 22.529290]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Qd4wsczz/IMG-20240626-WA0095.webp"
+    },
+    {
+      "id": 222,
+      "name": "Anokha Pani Puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.392955, 22.515145]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/PqCcqPs5/IMG-20240626-WA0097.webp"
+    },
+    {
+      "id": 223,
+      "name": "Chatpata Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367111, 22.517724]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/k5LHRqqF/IMG-20240626-WA0098.webp"
+    },
+    {
+      "id": 224,
+      "name": "Golmaal Golgappa",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.358964, 22.518532]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/x83pZmHt/IMG-20240626-WA0099.webp"
+    },
+    {
+      "id": 225,
+      "name": "Spicy Delight Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.368061, 22.520822]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/CLJ6HjwK/IMG-20240626-WA0101.webp"
+    },
+    {
+      "id": 226,
+      "name": "Rasila Pani Puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.392948, 22.516121]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/y8bQ2sg4/IMG-20240626-WA0102.webp"
+    },
+    {
+      "id": 227,
+      "name": "Chatpata Jhalmuri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.358859, 22.518635]
+      },
+      "foodItems":["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/76vBY9nK/IMG-20240626-WA0105.webp"
+    },
+    {
+      "id": 228,
+      "name": "Tangy Treat Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.388310, 22.516658]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FzpGp456/IMG-20240626-WA0106.webp"
+    },
+    {
+      "id": 229,
+      "name": "Royal Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.383729, 22.502410]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/28H2Brxb/IMG-20240626-WA0109.webp"
+    },
+    {
+      "id": 230,
+      "name": "syan snacks",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.366756, 22.516487]
+      },
+      "foodItems": ["Egg Roll", "Chicken Roll", "veg rice", "pasta", "chow"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3xd9XVLL/IMG-20240626-WA0110.webp"
+    },
+    {
+      "id": 231,
+      "name": "Crunchy Pakoda Point",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.378388, 22.519293]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ydzPzd75/IMG-20240626-WA0111.webp"
+    },
+    {
+      "id": 232,
+      "name": "Kancha Muri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367362, 22.520258]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gJqKcWJ0/IMG-20240626-WA0112.webp"
+    },
+    
+    {
+      "id": 234,
+      "name": "Desi Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.380445, 22.519242]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/rwBGSmRm/IMG-20240626-WA0115.webp"
+    },
+    {
+      "id": 236,
+      "name": "sankar chat bhandar",
+      "location": {
+        "type": "Point",
+       "coordinates": [88.380509, 22.519256]
+      },
+      "foodItems": [
+        "Alum Dum",
+        "Churmur",
+        "Alu Chat",
+        "Dahi bada",
+        "Ragra Chat",
+        "Alu Dum Masala",
+        "Puchka",
+        "Puchka Masala"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/XqY9VBm2/IMG-20240626-WA0118.webp"
+    },
+    {
+      "id": 237,
+      "name": "Spicy Chaat Junction",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.392829, 22.514565]
+      },
+      "foodItems": [
+        "Alum Dum",
+        "Churmur",
+        "Alu Chat",
+        "Dahi bada",
+        "Ragra Chat"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/rFz53WSs/IMG-20240626-WA0121.webp"
+    },
+    {
+      "id": 238,
+      "name": "Kolkata King Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.393279, 22.517670]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/15TDQtHH/IMG-20240626-WA0122.webp"
+    },
+    {
+      "id": 239,
+      "name": "Bengal Bites Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367233, 22.513138]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FKXcYBwk/IMG-20240626-WA0126.webp"
+    },
+    {
+      "id": 240,
+      "name": "Shital Shikanji",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.393010, 22.516004]
+      },
+      "foodItems": ["Shikanji", "Masala Cola", "Lemon Soda", "Mango Lassi"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/1z0FwKZC/IMG-20240626-WA0129.webp"
+    },
+    {
+      "id": 241,
+      "name": "Puchka Plaza",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3365693, 22.518478]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/mDbHwFLb/IMG-20240626-WA0131.webp"
+    },
+    {
+      "id": 242,
+      "name": "Flavors of Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361308, 22.502018]
+      },
+     "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Y00mcKLZ/IMG-20240626-WA0133.webp"
+    },
+    {
+      "id": 243,
+      "name": "Momos Express",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361006, 22.501965]
+      },
+      "foodItems": ["Veg Momos", "Chicken Momos", "Paneer Momos", "Tandoori Momos"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/nz0Qwcrq/IMG-20240626-WA0135.webp"
+    },
+    {
+      "id": 244,
+      "name": "Puchka Palace",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.360957, 22.501981]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/dt7T4FYT/IMG-20240626-WA0137.webp"
+    },
+    {
+      "id": 245,
+      "name": "Crunchy Delight Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361342, 22.502049]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/jjTwxJJz/IMG-20240626-WA0138.webp"
+    },
+    {
+      "id": 246,
+      "name": "Cookie Corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.360915, 22.502030]
+      },
+      "foodItems": ["Butter Biscuit", "Coconut Biscuit", "Chocolate Chip Cookie", "Oatmeal Cookie"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/6pn4xhTW/IMG-20240626-WA0139.webp"
+    },
+    {
+      "id": 247,
+      "name": "Chatkara Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367577, 22.511081]
+      },
+      "foodItems": ["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3wZydJgz/IMG-20240626-WA0140.webp"
+    },
+    {
+      "id": 248,
+      "name": "Nimbu Masala Muri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.360766, 22.502051]
+      },
+      "foodItems": [
+        "Roasted Gram (Chana)",
+        "Puffed Rice (Murmura)",
+        "Flattened Rice (Poha)",
+        "Sev","Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4dNYtkPy/IMG-20240626-WA0141.webp"
+    },
+    {
+      "id": 251,
+      "name": "Srestha Fast Food Corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.365320, 22.510998]
+      },
+      "foodItems": ["Chowmein", "Maggi", "pasta", "Roll"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/MHgHhcSf/IMG-20240626-WA0144.webp"
+    },
+    {
+      "id": 252,
+      "name": "Joydeb Tea Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.365368, 22.5510973]
+      },
+      "foodItems":  ["Masala Chai", "Ginger Tea", "Lemon Tea", "Green Tea", "Black Tea", "Elaichi Tea"]      ,
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/G3f4Bfy3/IMG-20240626-WA0147.webp"
+    },
+    {
+      "id": 253,
+      "name": "Chatpata Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.364835, 22.502642]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/TYWpncVV/IMG-20240626-WA0150.webp"
+    },
+    {
+      "id": 254,
+      "name": "Flavorsome Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361262, 22.502063]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/L8KhDZDr/IMG-20240626-WA0151.webp"
+    },
+    {
+      "id": 255,
+      "name": "Khatta Meetha Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367557, 22.511292]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3w3N55P1/IMG-20240626-WA0152.webp"
+    },
+    {
+      "id": 256,
+      "name": "Rajasthani Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361189, 22.501967]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/63mpv7Tb/IMG-20240626-WA0153.webp"
+    },
+    {
+      "id": 257,
+      "name": "Thanda Swad",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361140, 22.502008]
+      },
+      "foodItems": [["Shikanji", "Masala Cola", "Lemon Soda", "Mango Lassi"]],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W1vg3yBF/IMG-20240626-WA0155.webp"
+    },
+    {
+      "id": 258,
+      "name": "Authentic Puchka Corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.362405, 22.502027]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/kDrMTkQx/IMG-20240626-WA0156.webp"
+    },
+    {
+      "id": 259,
+      "name": "Traditional Puchka Stop",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367618, 22.511081]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/FKFSbLsh/IMG-20240626-WA0158.webp"
+    },
+    {
+      "id": 260,
+      "name": "Puchka Fusion",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4NtpXGSR/IMG-20240626-WA0159.webp"
+    },
+    {
+      "id": 261,
+      "name": "satish chat bhandar",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.361297, 22.501969]
+      },
+      "foodItems": ["Pani Puri", "Sev Puri", "Bhel Puri", "Dahi Puri", "Chaat Papdi", "Aloo Tikki Chaat", "Ragda Pattice"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0NtwVybD/IMG-20240626-WA0164.webp"
+    },
+    {
+      "id": 262,
+      "name": "Classic batata",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+     "foodItems": [
+        "Roasted Gram (Chana)",
+        "Puffed Rice (Murmura)",
+        "Flattened Rice (Poha)",
+        "Sev"
+      ],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5NwQZ3Xx/IMG-20240626-WA0166.webp"
+    },
+    {
+      "id": 263,
+      "name": "Sada Pan Corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems": ["Meetha Pan Masala", "Sada Pan Masala", "Banarasi Pan Masala", "Mint Pan Masala", "Rose Pan Masala"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/BbFPZ5NB/IMG-20240626-WA0167.webp"
+    },
+    {
+      "id": 264,
+      "name": "Swadisht Chole Bhature",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367169, 22.508563]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/htcQgdmV/IMG-20240626-WA0169.webp"
+    },
+    {
+      "id": 266,
+      "name": "ok shyamal da",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.365241, 22.511036]
+      },
+      "foodItems": ["sandwich", "Shapaley", "kebab", "chilli pork", "spring roll", "momo", "noodles", "chicken biryani"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/c13vnmMQ/IMG-20240626-WA0173.webp"
+    },
+    {
+      "id": 267,
+      "name": "Dilli Wala Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.365053, 22.511105]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/j5pC1wKw/IMG-20240626-WA0174.webp"
+    },
+    {
+      "id": 268,
+      "name": "Bhel Puri stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367133, 22.508602]
+      },
+      "foodItems":["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9QL0hNCj/IMG-20240626-WA0176.webp"
+    },
+    {
+      "id": 269,
+      "name": "Eggcellent Bites",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367568, 22.508665]
+      },
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/L6MnB1NG/IMG-20240626-WA0178.webp"
+    },
+    {
+      "id": 270,
+      "name": "ahil momo center",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369326, 22.500008]
+      },
+      "foodItems": ["Veg Momos", "Chicken Momos", "Paneer Momos", "Tandoori Momos"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3w6wy4kS/IMG-20240626-WA0181.webp"
+    },
+    {
+      "id": 271,
+      "name": "tara fast food corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.375880, 22.5479863]
+      },
+      "foodItems": ["", ""],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/2ydjX02M/IMG-20240626-WA0183.webp"
+    },
+    {
+      "id": 272,
+      "name": "nonveg corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357797, 22.502139]
+      },
+      "foodItems": ["chicken", "mutton", "egg"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/XJCY9jFV/IMG-20240626-WA0186.webp"
+    },
+    {
+      "id": 273,
+      "name": "Junk yard",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370088, 22.498271]
+      },
+      "foodItems": ["Devil's egg", "Chicken breast cutlet", "fish fry", "fish ball", "fish chips"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/X73Yy0vb/IMG-20240626-WA0187.webp"
+    },
+    {
+      "id": 274,
+      "name": "dohi alurdum",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370570, 22.496594]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/7ZktkmXX/IMG-20240626-WA0188.webp"
+    },
+    {
+      "id": 275,
+      "name": "Puchka Junction",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.365771, 22.485632]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9QY8FZn2/IMG-20240626-WA0190.webp"
+    },
+    {
+      "id": 276,
+      "name": "Tea Treats",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370521, 22.496625]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/VLMZp39d/IMG-20240626-WA0192.webp"
+    },
+    {
+      "id": 277,
+      "name": "Spicy Momo Hut",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.375841, 22.479825]
+      },
+      "foodItems":["Veg Momos", "Chicken Momos", "Paneer Momos", "Tandoori Momos"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/7PjQBx2F/IMG-20240626-WA0193.webp"
+    },
+    {
+      "id": 278,
+      "name": "Banarasi Pan Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367714, 22.509070]
+      },
+      "foodItems": ["Marie Biscuit", "Parle-G", "Digestive Biscuit", "Good Day Biscuit", "Meetha Pan Masala", "Sada Pan Masala", "Banarasi Pan Masala"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/wv70VPTx/IMG-20240626-WA0197.webp"
+    },
+    {
+      "id": 279,
+      "name": "bhel murmura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367991, 22.485337]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/BvZh8brK/IMG-20240626-WA0198.webp"
+    },
+    {
+      "id": 280,
+      "name": "Banarasi puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369650, 22.499385]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/MTNtrDv7/IMG-20240626-WA0199.webp"
+    },
+    {
+      "id": 282,
+      "name": "chatpata murmura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370997, 22.495535]
+      },
+     "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/pV5s5g6q/IMG-20240626-WA0201.webp"
+    },
+    {
+      "id": 283,
+      "name": "churmur plaza",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.360795, 22.514109]
+      },
+     "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/8P8tRZ8D/IMG-20240626-WA0205.webp"
+    },
+    {
+      "id": 284,
+      "name": "Fish corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370575, 22.496569]
+      },
+      "foodItems": ["chicken wings", "lote fish cutlet", "fish butter", "prawn fish"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/L5Pvd11r/IMG-20240626-WA0206.webp"
+    },
+    {
+      "id": 285,
+      "name": "spicy puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367555, 22.508545]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/7YgXmSDz/IMG-20240626-WA0209.webp"
+    },
+    {
+      "id": 286,
+      "name": "Chai Adda",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367123, 22.508616]
+      },
+      "foodItems": ["Masala Chai", "Ginger Tea", "Lemon Tea", "Green Tea", "Black Tea", "Elaichi Tea"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Dw66KFSy/IMG-20240626-WA0210.webp"
+    },
+    {
+      "id": 287,
+      "name": "lucky puchka point",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369383, 22.499849]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/hG30fr8k/IMG-20240626-WA0213.webp"
+    },
+    {
+      "id": 288,
+      "name": "puchka hub",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3367587, 22.508732]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/gJXHRZNn/IMG-20240626-WA0214.webp"
+    },
+    {
+      "id": 289,
+      "name": "Chatpata Pakoda Stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367115, 22.508550]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/KYYNGVT7/IMG-20240626-WA0215.webp"
+    },
+    {
+      "id": 290,
+      "name": "mangesh chat center",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.373476, 22.484376]
+      },
+      "foodItems": ["Dahi Papri Chat", "papri chat", "batata puri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/nVm1hqXW/IMG-20240626-WA0216.webp"
+    },
+    {
+      "id": 294,
+      "name": "karan puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367631, 22.509140]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Yqff1kff/IMG-20240626-WA0221.webp"
+    },
+    {
+      "id": 295,
+      "name": "yash puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369560, 22.499593]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0ykGn3Vg/IMG-20240626-WA0222.webp"
+    },
+    {
+      "id": 297,
+      "name": "Spicy Pakoda Zone",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357264, 22.500040]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/bvdxcnX3/IMG-20240626-WA0225.webp"
+    },
+    {
+      "id": 298,
+      "name": "victoria puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.362322, 22.502041]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/br0bHHbN/IMG-20240626-WA0226.webp"
+    },
+    {
+      "id": 299,
+      "name": "sweets and puri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357557, 22.497036]
+      },
+      "foodItems": ["Rasgulla", "Sandesh", "Mishti Doi", "Cham Cham", "Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/9M7yzjQ9/IMG-20240626-WA0229.webp"
+    },
+    {
+      "id": 300,
+      "name": "chatpata bhatura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.375767, 22.479943]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/d0X8q0wv/IMG-20240626-WA0232.webp"
+    },
+    {
+      "id": 301,
+      "name": "Egg corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369364, 22.499912]
+      },
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/kGPKbh2p/IMG-20240626-WA0233.webp"
+    },
+    {
+      "id": 302,
+      "name": "Grilled Sandwich Hub",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369586, 22.499545]
+      },
+      "foodItems": ["Veg Sandwich", "Paneer Sandwich", "Grilled Cheese Sandwich", "Club Sandwich", "Egg Sandwich", "Chicken Sandwich"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/h4V9BgwW/IMG-20240626-WA0234.webp"
+    },
+    {
+      "id": 303,
+      "name": "spicy bhatura",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369460, 22.499754]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3JBmk1Yt/IMG-20240626-WA0237.webp"
+    },
+    {
+      "id": 304,
+      "name": "Crunchy Bread Pakoda Point",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357776, 22.502290]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda", "break pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/yYB06t4J/IMG-20240626-WA0240.webp"
+    },
+    {
+      "id": 305,
+      "name": "sandwich point",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370563, 22.496531]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/t44PW6gp/IMG-20240626-WA0243.webp"
+    },
+    {
+      "id": 306,
+      "name": "Minty Pan Delight",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.367525, 22.508653]
+      },
+      "foodItems": ["Meetha Pan Masala", "Sada Pan Masala", "Banarasi Pan Masala", "Mint Pan Masala", "Rose Pan Masala"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/6pbZ0Q7R/IMG-20240626-WA0244.webp"
+    },
+    {
+      "id": 307,
+      "name": "famous chat wala",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357195, 22.499929]
+      },
+      "foodItems": ["papri chat", "Bhel Puri", "batata puri", "aloo chat", "dahi vada", "dahi chaat", "masal muri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/DzWXYKsN/IMG-20240626-WA0247.webp"
+    },
+    {
+      "id": 308,
+      "name": "chole Bhature corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369621, 22.499512]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/fb60GgfR/IMG-20240626-WA0249.webp"
+    },
+    {
+      "id": 310,
+      "name": "batata chat stall",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.375896, 22.479781]
+      },
+      "foodItems": ["papri chat", "Bhel Puri", "batata puri", "aloo chat", "dahi vada", "dahi chaat", "masal muri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0jvKQM3g/IMG-20240626-WA0251.webp"
+    },
+    {
+      "id": 311,
+      "name": "Puchka corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357946, 22.502439]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/HW07NzcT/IMG-20240626-WA0252.webp"
+    },
+    {
+      "id": 312,
+      "name": "lassi corner",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.370645, 22.496706]
+      },
+      "foodItems": ["lassi", "doi chira", "Water Bottle"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/qqGhCBVN/IMG-20240626-WA0256.webp"
+    },
+    {
+      "id": 313,
+      "name": "puchka bandar",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357581, 22.496999]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/m2bFW9CC/IMG-20240626-WA0259.webp"
+    },
+    {
+      "id": 314,
+      "name": "Cookie Heaven",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.375963, 22.481329]
+      },
+      "foodItems": ["Marie Biscuit", "Parle-G", "Digestive Biscuit", "Good Day Biscuit","Chocolate Chip Cookie", "Oatmeal Raisin Cookie", "Butter Cookie"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/65Y4WQfS/IMG-20240626-WA0261.webp"
+    },
+    {
+      "id": 315,
+      "name": "Garlic chowmein Hub",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.369323, 22.500010]
+      },
+      "foodItems": ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/rwHd4YbN/IMG-20240626-WA0264.webp"
+    },
   
     {
-        "id": 7,
-        "name": "Puchka Wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.351977, 22.560087]   
-        },
-        "foodItems": ["Puchka", "Puchka Masala"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/FsFjrLd7/puchka-wala.webp"
-
-    },
-    {
-        "id": 8,
-        "name": "Subhash Papad wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352038, 22.560099]   
-        },
-        "foodItems": ["Fried Snacks", "Puchka Packet", "Puffed Rice (Murmura)", "Sev", "Bhujia","Chakli (circular fried snacks)", "Lentils and Pulses", "Chips", "Papad", "Fried Namkeen"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/VkC5mfRJ/Whats-App-Image-2024-06-19-at-14-46-35-5ec8518b.webp"
-     
-
-    },
-    {
-        "id": 9,
-        "name": "Subhash Papad wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352018, 22.560253]   
-        },
-        "foodItems": ["Puffed Rice (Murmura)", "Papad wala", "Sev", "Bhujia", "Chips", "Papad", "Fried Namkeen"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/Bv56PmRs/Whats-App-Image-2024-06-19-at-14-46-35-c6bd8150.webp"
-
-    },
-    {
-        "id": 10,
-        "name": "Wow Chicken",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352032, 22.559962]   
-        },
-        "foodItems": ["Chicken Puff"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/xTqcpyNy/Whats-App-Image-2024-06-19-at-14-46-35-29caa01a.webp"
-
-    },
-    {
-        "id": 11,
-        "name": "kolkata Mocktail, Lassi & Kulfi Corner",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.351956, 22.559728]   
-        },
-        "foodItems": ["Mocktail", "Lassi", "Kulfi", "Faluda"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/ZnSxFs5c/kokata-Mocktail-Lassi-Kulfi-Corner.webp"
-
-    },
-    {
-        "id": 12,
-        "name": "Dolly Fast Food",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352590, 22.559206]   
-        },
-        "foodItems": ["Roll", "Momo", "Rice", "Chowmein", "Kabab"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/C5TmrLmb/Dolly-Fast-Food.webp"
-
-    },
-    {
-        "id": 13,
-        "name": "Jay mata di puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352623, 22.559256]   
-        },
-        "foodItems": ["Puchka Masala", "Puchka"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/bv4TdwX4/jay-mata-di.webp"
-
-    },
-    {
-        "id": 14,
-        "name": "Dosa shop",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352750, 22.559573]   
-        },
-        "foodItems": ["Masala Dosa", "Idli", "Lassi"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/8cRw2Q09/dosa-wala.webp"
-
-    },
-    {
-        "id": 15,
-        "name": "Ma Vindhyavasini Tea Staller",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352776, 22.559424]   
-        },
-        "foodItems": ["Tea", "Masala Tea", "Gud Tea"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/vm51LYgJ/tea-staller.webp"
-
-    },
-    {
-        "id": 16,
-        "name": "SugarCane Juice Seller",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353017, 22.559386]   
-        },
-        "foodItems": ["Sugarcane Juice"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/W1Fqz62b/sugar-Cane-juice-seller.webp"
-
-    },
-    {
-        "id": 17,
-        "name": "Bhel Puri Seller",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353036, 22.559463]   
-        },
-        "foodItems": ["Murmura", "Bhel Puri"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/v8VKrC3W/Bhel-puri-seller.webp"
-
-    },
-    {
-        "id": 18,
-        "name": "Sandeep Stall",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.354182, 22.559173]   
-        },
-        "foodItems": ["Egg", "Banana", "Water Bottle", "Pan Masala"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/htfTxR0n/sandeep.webp"
-
-    },
-    {
-        "id": 19,
-        "name": "Sandwich & Cold Drink Seller",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.354653, 22.559179]   
-        },
-        "foodItems": ["Paneer Sandwich", "Veg Sandwich", "Water Bottle", "Cold Drink"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/SspMw2bQ/sandwich-and-coldrink-stall.webp"
-
-    },
-    {
-        "id": 20,
-        "name": "Debashish Sandwich & Drink Seller",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.354666, 22.559125]   
-        },
-        "foodItems": ["Egg Sandwich", "Veg Sandwich", "Mango Shake", "jucie", "Cold Drink"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/jj2gL1Dn/Debashish-Sandwich-Drink-Seller.webp"
-
-    },
-    {
-        "id": 21,
-        "name": "Anirban SugarCane Seller",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.354328, 22.559235]   
-        },
-        "foodItems": ["Sugarcane Juice"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/mrgq7D5D/Anirban-Sugar-Cane-Seller.webp"
-
-    },
-    {
-        "id": 22,
-        "name": "Santosh Pakode wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353095, 22.559376]   
-        },
-        "foodItems": ["Onion Pakoda", "Chicken Pakoda"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/5y4F2htZ/santosh-pakode-wala.webp"
-
-    },
-    {
-        "id": 23,
-        "name": "Arun Chat wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.352799, 22.559414]   
-        },
-        "foodItems": ["Dahi Papdi Chat", "Alu Chat", "Murmura", "Bhel Puri"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/k5YHsm0y/arun-murmura-Seller.webp"
-
-    },
-    {
-        "id": 24,
-        "name": "Pradip Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.350770, 22.552784]   
-        },
-        "foodItems": ["Puchka Masala", "Puchka Papdi", "Puchka", "Dahi Puchka"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/gJvvJyH6/pradip-Puchka.webp"
-
-    },
-    {
-        "id": 25,
-        "name": "Rakesh Murmura",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.350919, 22.552843]   
-        },
-        "foodItems": ["Papad", "Murmura", "Alu Dum Masala"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/02t7byDZ/rakesh-murmura.webp"
-
-    },
-    {
-        "id": 26,
-        "name": "Ashok Bhel Puri",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.350694, 22.552818]   
-        },
-        "foodItems": ["Bhel Puri", "Murmura"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/G2B5Sfrn/Ashok-bhelpuri.webp"
-
-    },
-    {
-        "id": 27,
-        "name": "Sudip Murmura",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.350721, 22.552264]   
-        },
-        "foodItems": ["Bhel Puri", "Murmura", "Papad", "Fried Namkeen", "Sev"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/yYNZ4CtR/sudip-murmura.webp"
-
-    },
-    {
-        "id": 28,
-        "name": "Vardaan Vada Pav",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353503, 22.548629]   
-        },
-        "foodItems": ["cheese Vada Pav", "Vada Pav", "Pav"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/Hx76t74p/Dipak-Vada-Pav.webp"
-
-    },
-    {
-        "id": 29,
-        "name": "Chandan Sprout",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353494, 22.548435]   
-        },
-        "foodItems": ["Sprout", "Mixture", "Cheewda"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/yYCbvnb2/Chandan-Sprout.webp"
-
-    },
-    {
-        "id": 30,
-        "name": "Mahesh Puchka wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353553, 22.548592]   
-        },
-        "foodItems": ["Puchka Masala", "Puchka", "Puchka Papdi"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/dQ2BtF5S/Mahesh-puchka-wala.webp"
-
-    },
-    {
-        "id": 31,
-        "name": "Bhaskar Murmura wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353629, 22.548506]   
-        },
-        "foodItems": ["Murmura", "Bhel Puri", "Churmur"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/90ZNcqrx/bhaskar-murmura.webp"
-
-    },
-    {
-        "id": 32,
-        "name": "Anil Chiila wala",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.3534499, 22.548406]   
-        },
-        "foodItems": ["Paneer Onion Mix Chiila", "Cheese Onion Mix Chiila", "Onion Chiila"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/RZXpCmZz/chilla.webp"
-
-    },
-    {
-        "id": 33,
-        "name": "Victoria Soda Shop",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353669, 22.548554]   
-        },
-        "foodItems": ["Kesar Badam", "Keshar Pista", "lemon Soda","Strawberry Soda", "kachha mango soda"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/fyqkTkp9/victoria-soda-shop.webp"
-
-    },
-    {
-        "id": 34,
-        "name": "Manoj’s Masti Chaat",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.353532, 22.548423]   
-        },
-        "foodItems": ["Kesar Badam", "Keshar Pista", "lemon Soda","Strawberry Soda", "kachha mango soda"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/xdNGrVk5/Manojs-Masti-Chaat.webp"
-
-    },
-    {
-        "id": 35,
-        "name": "Ravi Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.349054, 22.545627]   
-        },
-        "foodItems": ["Sev Puri", "Churmur", "Sandwich Soda","Aloo Puchka", "Dahi Puchka"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/Xv55HKhD/Ravi-puchka.webp"
-
-    },
-    {
-        "id": 36,
-        "name": "Raju Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.349062, 22.545650]   
-        },
-        "foodItems": ["Ragda pattis","Ghughni Puchka","Churmur", "Puchka Masala", "Puchka Papdi","Aloo Puchka", "Dahi Puchka"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/66frx0Qk/raju-puchka.webp"
-
-    },
-    {
-        "id": 37,
-        "name": "Rana Chaat",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.349027, 22.545449]   
-        },
-        "foodItems": ["Chaat","Alu Chat","Masala Chat"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/x1hH3psz/rana-chat.webp"
-
-    },
-    {
-        "id": 38,
-        "name": "Rajasthani Famous Chat",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.348975, 22.545455]   
-        },
-        "foodItems": ["Kachori Chaat","Papri Chat","Samosa Chat", "mixed Chat"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/SRdCLy5S/Rajasthani-Famous-Chat.webp"
-
-    },
-    {
-        "id": 39,
-        "name": "Food Quest",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.349003, 22.545346]   
-        },
-        "foodItems": ["Veg Maggi", "Cheese Maggi", "Veg Pasta", "Mix Cheese", "Pasta"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/MKw9yHcS/food-quest.webp"
-
-    },
-    {
-        "id": 40,
-        "name": "Maya Ram",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.349007, 22.545246]   
-        },
-        "foodItems": ["Veg Thali", "Fried Rice", "Veg Maggi", "Cheese Maggi", "Pasta"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/9QMtp7Cv/Maya-Ram.webp"
-
-    },
-    {
-        "id": 41,
-        "name": "Sanjay Churmur",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.348610, 22.541614]   
-        },
-        "foodItems": ["Churmur", "Puffed Rice (Murmura)", "Mixture"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/26FZmkCQ/sanjay-churmur.webp"
-
-    },
-    {
-        "id": 42,
-        "name": "Haripada",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.348527, 22.541658]   
-        },
-        "foodItems": ["Roasted Gram (Chana)", "Puffed Rice (Murmura)", "Flattened Rice (Poha)", "Sev"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/J4QPK8JB/haribada.webp"
-
-    },
-    {
-        "id": 43,
-        "name": "Nirmal Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.331733, 22.531724]   
-        },
-        "foodItems": ["Puchka Masala", "Puchka Papdi", "Churmur", "Sev Puchka"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/52R5k2tj/niraml-puchka.webp"
-
-    },
-    {
-        "id": 44,
-        "name": "Chaurasiya Bombay Sandwich Centre",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.330316, 22.522509]   
-        },
-        "foodItems": ["Veg Sandwich", "Paneer Sandwich", "Cheese Sandiwich"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/Z5TDhnZc/Chaurasiya-Bombay-Sandwich-Centre.webp"
-
-    },
-    {
-        "id": 45,
-        "name": "Thela Puchka",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.330424, 22.522330]   
-        },
-        "foodItems": ["Alu Puchka", "Puchka Masala", "Puchka Papdi"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/rswKk5nT/thela-puchka.webp"
-
-    },
-    {
-        "id": 46,
-        "name": "Harilal churmur",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.330481, 22.522403]   
-        },
-        "foodItems": ["Churmur", "Sev", "Murmura"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/SKndyzPW/Harilal-churmur.webp"
-
-    },
-    {
-        "id": 47,
-        "name": "Basudev Masala Puri",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.330380, 22.522271]   
-        },
-        "foodItems": ["Batata Puri", "Masala puri", "papdi chaat", "Bread chat"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-        "photoUrl": "https://i.postimg.cc/j5GFVhdw/basudev.webp"
-
-    },
-    {
-        "id": 48,
-        "name": "Bengal Sharbet House",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.343273, 22.547787]   
-        },
-        "foodItems": ["Aam Pora Sharbat", "Gondhoraj Lemon Sharbat", "Bel Panna", "Rose Milk"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-    "photoUrl":"https://i.postimg.cc/fTK2mFDD/bengal-sharbet-house.webp"
-
-
-    },
-    {
-        "id": 49,
-        "name": "Bombay Famour Chat",
-        "location": {
-            "type": "Point",
-            "coordinates": [88.343194, 22.547820]   
-        },
-        "foodItems": ["Batata Puri", "Masala Puri", "Papdi Chaat", "Bhel Puri"],
-        "hygieneRating": 4,
-        "tasteRating": 4,
-        "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/YCCX33Cg/bombat-famour-chat.webp"},
-{
-    "id": 50,
-    "name": "Bhel House",
-    "location": {
+      "id": 317,
+      "name": "rasoi batura puri",
+      "location": {
         "type": "Point",
-        "coordinates": [88.342021, 22.541439]   
+        "coordinates": [88.373012, 22.484689]
+      },
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/bv2Z99fc/IMG-20240626-WA0266.webp"
     },
-    "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/bN8VG8Xm/bhel-house.webp"},
-{
-    "id": 51,
-    "name": "Bong momo magic",
-    "location": {
+    {
+      "id": 318,
+      "name": "Cookie Delight",
+      "location": {
         "type": "Point",
-        "coordinates": [88.346438, 22.524439]   
+        "coordinates": [88.375796, 22.479890]
+      },
+      "foodItems": ["Chocolate Chip Cookie", "Oatmeal Raisin Cookie", "Butter Cookie", "Coconut Cookie"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/C5wdYyBS/IMG-20240626-WA0267.webp"
     },
-    "foodItems": ["Steamed Momo", "Fried Momo", "Tandoori Momo", "Schezwan Momo"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/mZ762knc/bong-momo-magic.webp"},
-{
-    "id": 52,
-    "name": "chat adda",
-    "location": {
+    {
+      "id": 319,
+      "name": "rupali snacks",
+      "location": {
         "type": "Point",
-        "coordinates": [88.353566, 22.545055]   
+        "coordinates": [88.362330, 22.502088]
+      },
+      "foodItems": ["veg roll", "egg roll", "moglai parota", "veg chowmein", "egg chowmein", "chicken chowmein"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/TwMp75Ty/IMG-20240626-WA0268.webp"
     },
-    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/C1kJ1rcy/chat-adda.webp"},
-{
-    "id": 53,
-    "name": "chiruni pav bhaji",
-    "location": {
+    {
+      "id": 320,
+      "name": "classic egg",
+      "location": {
         "type": "Point",
-        "coordinates": [88.333022, 22.559292]   
+        "coordinates": [88.351576, 22.538876]
+      },
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W3GtQp45/IMG-20240626-WA0270.webp"
     },
-    "foodItems": ["Pav Bhaji", "Cheese Pav Bhaji", "Masala Pav", "Butter Pav Bhaji"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/g2tgBZx7/chiruni-pav-bhaji.webp"},
-{
-    "id": 54,
-    "name": "ganga puchka corner",
-    "location": {
+    {
+      "id": 321,
+      "name": "classic puchka",
+      "location": {
         "type": "Point",
-        "coordinates": [88.342068, 22.541431]   
+        "coordinates": [88.364999, 22.519540]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3rZd1wVR/IMG-20240626-WA0272.webp"
     },
-    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/R03grZfZ/ganga-puchka-corner.webp"},
-{
-    "id": 55,
-    "name": "ganguly pan pala",
-    "location": {
+    {
+      "id": 323,
+      "name": "egg center",
+      "location": {
         "type": "Point",
-        "coordinates": [88.346238, 22.525639]   
+        "coordinates": [88.365033, 22.519570]
+      },
+      "foodItems":["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/sDD1NrCJ/IMG-20240626-WA0275.webp"
     },
-    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/tgL29Gtt/ganguly-pan-palace.webp"},
-{
-    "id": 56,
-    "name": "kolkata pan kutir",
-    "location": {
+    {
+      "id": 324,
+      "name": "muskaan puchka",
+      "location": {
         "type": "Point",
-        "coordinates": [88.354545, 22.538032]   
+        "coordinates": [88.361937, 22.519098]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/pXGyN62M/IMG-20240626-WA0280.webp"
     },
-    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/qBcjHYty/kolkata-pan-kutir.webp"},
-{
-    "id": 57,
-    "name": "laxman bhel puri",
-    "location": {
+    {
+      "id": 325,
+      "name": "sanjay fastfood center",
+      "location": {
         "type": "Point",
-        "coordinates": [88.354527, 22.538032]   
+        "coordinates": [88.358363, 22.537862]
+      },
+      "foodItems": ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/t4sJ9NTZ/IMG-20240626-WA0281.webp"
     },
-    "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/RVMGSRf8/laxman-bhel-puri.webp"},
-{
-    "id": 58,
-    "name": "maya bose jai jawan stall",
-    "location": {
+    {
+      "id": 326,
+      "name": "pakoda chills",
+      "location": {
         "type": "Point",
-        "coordinates": [88.333103, 22.559414]   
+        "coordinates": [88.352124, 22.539271]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/K8Czj3k9/IMG-20240626-WA0282.webp"
     },
-    "foodItems": ["Egg Roll", "Chicken Roll", "Paneer Roll", "Mutton Roll"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/7h49T1R5/maya-bose-jai-jawan-stall.webp"},
-{
-    "id": 59,
-    "name": "mishti kachori",
-    "location": {
+    {
+      "id": 327,
+      "name": "muskaan murmura",
+      "location": {
         "type": "Point",
-        "coordinates": [88.346419, 22.524201]   
+        "coordinates": [88.365546, 22.518317]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/BvDvKZ2J/IMG-20240626-WA0285.webp"
     },
-    "foodItems": ["Kachori", "Alur Dom", "Singara", "Khasta Kachori"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/FzxZbdtD/mishti-kachori.webp"},
-{
-    "id": 60,
-    "name": "misti pan masala",
-    "location": {
+    {
+      "id": 328,
+      "name": "murmuram manik",
+      "location": {
         "type": "Point",
-        "coordinates": [88.330380, 22.522271]   
+        "coordinates": [88.360071, 22.518675]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/bJhwHXRk/IMG-20240626-WA0287.webp"
     },
-    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/y8GTTC54/misti-pan-masala.webp"},
-{
-    "id": 61,
-    "name": "mohan noodle",
-    "location": {
+    {
+      "id": 329,
+      "name": "tasty noodles",
+      "location": {
         "type": "Point",
-        "coordinates": [88.344162, 22.540687]   
+        "coordinates": [88.365586, 22.518256]
+      },
+      "foodItems": ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/MTmK9ss4/IMG-20240626-WA0288.webp"
     },
-    "foodItems": ["Hakka Noodles", "Schezwan Noodles", "Chilli Garlic Noodles", "Mixed Veg Noodles"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/GhqKHyxp/mohan-noodle.webp"},
-{
-    "id": 62,
-    "name": "murmura mastaan",
-    "location": {
+    {
+      "id": 330,
+      "name": "egg curry center",
+      "location": {
         "type": "Point",
-        "coordinates": [88.344240, 22.540669]   
+        "coordinates": [88.351317, 22.538875]
+      },
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/D0ffHqHz/IMG-20240626-WA0289.webp"
     },
-    "foodItems": ["Jhal Muri", "Churmur", "Bhel Puri", "Masala Muri"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/4xy5txWQ/murmura-mastaan.webp"},
-{
-    "id": 63,
-    "name": "nirvana nimbu pani",
-    "location": {
+    {
+      "id": 331,
+      "name": "Chatpata Pakoda point",
+      "location": {
         "type": "Point",
-        "coordinates": [88.333028, 22.559356]   
+        "coordinates": [88.355509, 22.518142]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/hvC4BXR1/IMG-20240626-WA0291.webp"
     },
-    "foodItems": ["Nimbu Pani", "Pudina Nimbu Pani", "Masala Soda", "Jal Jeera"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/XvykHDSZ/nirvana-nimbu-pani.webp"},
-{
-    "id": 64,
-    "name": "puchka babu",
-    "location": {
+    {
+      "id": 332,
+      "name": "Indian food",
+      "location": {
         "type": "Point",
-        "coordinates": [88.353616, 22.545019]   
+        "coordinates": [88.351384, 22.538848]
+      },
+      "foodItems": ["kachori", "roti", "egg curry", "fish fry"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/c1TLYbtt/IMG-20240626-WA0294.webp"
     },
-    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/vBrLMgmb/puchka-babu.webp"},
-{
-    "id": 65,
-    "name": "puchka-pritam",
-    "location": {
+    {
+      "id": 333,
+      "name": "classic pakoda",
+      "location": {
         "type": "Point",
-        "coordinates": [88.344259, 22.540674]   
+        "coordinates": [88.365081, 22.519546]
+      },
+      "foodItems":["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/dtxQNZBq/IMG-20240626-WA0295.webp"
     },
-    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/mDfN0NBm/puchka-pritam.webp"},
-{
-    "id": 66,
-    "name": "raja chat",
-    "location": {
+    {
+      "id": 334,
+      "name": "puchka house",
+      "location": {
         "type": "Point",
-        "coordinates": [88.342006, 22.541402]   
+        "coordinates": [88.359996, 22.518661]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Cxnh3MPb/IMG-20240626-WA0297.webp"
     },
-    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/vHHLFmww/raja-chat.webp"},
-{
-    "id": 67,
-    "name": "raja pan masala",
-    "location": {
+    {
+      "id": 335,
+      "name": "Masaledar Pakoda Hub",
+      "location": {
         "type": "Point",
-        "coordinates": [88.346325, 22.525736]   
+        "coordinates": [88.360128, 22.518644]
+      },
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/hG9SGyqj/IMG-20240626-WA0299.webp"
     },
-    "foodItems": ["Meetha Pan", "Masala Pan", "Chocolate Pan", "Sada Pan"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/ZnJPqb93/raja-pan-masala.webp"},
-{
-    "id": 68,
-    "name": "saraswati murmura",
-    "location": {
+    {
+      "id": 336,
+      "name": "muri wala",
+      "location": {
         "type": "Point",
-        "coordinates": [88.346436, 22.524117]   
+        "coordinates": [88.358270, 22.518533]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/g09zm9QQ/IMG-20240626-WA0300.webp"
     },
-    "foodItems": ["Jhal Muri", "Churmur", "Bhel Puri", "Masala Muri"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/ry9CPrb9/saraswati-murmura.webp"},
-{
-    "id": 69,
-    "name": "shibuji stall",
-    "location": {
+    {
+      "id": 337,
+      "name": "puchka bhog",
+      "location": {
         "type": "Point",
-        "coordinates": [88.353508, 22.545035]   
+        "coordinates": [88.364741, 22.519538]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/85NTfR1b/IMG-20240626-WA0302.webp"
     },
-    "foodItems": ["Chana Zor Garam", "Masala Papad", "Bhel Puri", "Jhal Muri"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/LsfjBYLL/shibuji.webp"},
-{
-    "id": 70,
-    "name": "special bhej puri",
-    "location": {
+    {
+      "id": 338,
+      "name": "masala puchka",
+      "location": {
         "type": "Point",
-        "coordinates": [88.333012, 22.559309]   
+        "coordinates": [88.358358, 22.518546]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/V6gmqJvP/IMG-20240626-WA0304.webp"
     },
-    "foodItems": ["Bhel Puri", "Jhal Muri", "Churmur", "Masala Puri"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/BnjTbwvh/spl-bhej-puri.webp"},
-{
-    "id": 71,
-    "name": "spl chaat corner",
-    "location": {
+    {
+      "id": 339,
+      "name": "thekha puchka",
+      "location": {
         "type": "Point",
-        "coordinates": [88.343265, 22.547760]   
+        "coordinates": [88.361163, 22.518936]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/rsYTH75h/IMG-20240626-WA0305.webp"
     },
-    "foodItems": ["Puchka", "Dahi Puchka", "Aloo Kabli", "Churmur"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/9QsG7tRc/spl-chaat-corner.webp"},
-{
-    "id": 72,
-    "name": "spl pav bhaji",
-    "location": {
+    {
+      "id": 340,
+      "name": "chowmein corner",
+      "location": {
         "type": "Point",
-        "coordinates": [88.343851, 22.563527]   
+        "coordinates": [88.358317, 22.518534]
+      },
+      "foodItems": ["veg chowmein", "egg chowmein", "chicken chowmein", "egg chicken chowein"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/4y3ZBXH7/IMG-20240626-WA0308.webp"
     },
-    "foodItems": ["Pav Bhaji", "Cheese Pav Bhaji", "Masala Pav", "Butter Pav Bhaji"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/9MYTK6xf/spl-pav-bhaji.webp"},
-{
-    "id": 73,
-    "name": "sunder kachori",
-    "location": {
+    {
+      "id": 341,
+      "name": "masala puri",
+      "location": {
         "type": "Point",
-        "coordinates": [88.344259, 22.540674]   
+        "coordinates": [88.359658, 22.518655]
+      },
+      "foodItems": ["Bhel Puri", "batata puri","Sev Puri"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/J7TRtHSb/IMG-20240626-WA0309.webp"
     },
-    "foodItems": ["Kachori", "Alur Dom", "Singara", "Khasta Kachori"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/JnLZTr5g/sunder-kachori.webp"},
-{
-    "id": 74,
-    "name": "maharaja purely vegeterian",
-    "location": {
+    {
+      "id": 342,
+      "name": "south indian food",
+      "location": {
         "type": "Point",
-        "coordinates": [88.344259, 22.540674]   
+        "coordinates": [88.354273, 22.517728]
+      },
+      "foodItems": ["idli", "vada", "uttapam", "dosa"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/J4GMX4WS/IMG-20240626-WA0310.webp"
     },
-    "foodItems": ["Hing Kachori", "Singara", "gulab jamun", "jalebi", "dhokla"], 
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/KjCBxhgh/maharaja-purely-vegeterian.webp"},
-{
-    "id": 75,
-    "name": "share chai",
-    "location": {
+    {
+      "id": 343,
+      "name": "masala muri",
+      "location": {
         "type": "Point",
-        "coordinates": [88.344259, 22.540674]   
+        "coordinates": [88.354213, 22.517884]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/3JV7F58N/IMG-20240626-WA0311.webp"
     },
-    "foodItems": ["Adhrak Chai", "Gud Chai", "masala Chai"],
-    "hygieneRating": 4,
-    "tasteRating": 4,
-    "hospitalityRating": 4,
-"photoUrl":"https://i.postimg.cc/qBF88yDD/share-chai.webp"},
-{
-    "id": 1,
-    "name": "Bhel Puri Batata Puri",
-    "location": {
+    {
+      "id": 344,
+      "name": "variety puchka center",
+      "location": {
         "type": "Point",
-        "coordinates": [88.358976, 22.514412]   
+        "coordinates": [88.360031, 22.518742]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/13FSWCXH/IMG-20240626-WA0312.webp"
     },
-    "foodItems": ["Bhel Puri", "Batata Puri"],
-    "hygieneRating": 5,
-    "tasteRating": 5,
-    "hospitalityRating": 5,
-    "photoUrl": "https://i.postimg.cc/Fsbnq3tz/bhel-puri-batata-puri.webp"
+    {
+      "id": 345,
+      "name": "hakka chowmein",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.358999, 22.518507]
+      },
+      "foodItems": ["veg chowmein", "egg chowmein", "chicken chowmein", "egg chicken chowein"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/5tMVDBFM/IMG-20240626-WA0313.webp"
+    },
+    {
+      "id": 346,
+      "name": "chatora chat",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357750, 22.518336]
+      },
+      "foodItems": ["Bhel Puri", "papri chat", "aloo chat", "mixed Chat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/LsBpSJzg/IMG-20240626-WA0315.webp"
+    },
+    {
+      "id": 347,
+      "name": "pudina puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.357061, 22.518287]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W3NP1snW/IMG-20240626-WA0318.webp"
+    },
+    {
+      "id": 348,
+      "name": "desi delight puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.358028, 22.518350]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/NFLqRbZR/IMG-20240626-WA0319.webp"
+    },
+    {
+      "id": 349,
+      "name": "c-4 snacks",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.358529, 22.518605]
+      },
+      "foodItems": ["Chowmein", "roll", "Rice", "veg chowmein", "egg chowmein", "egg chicken roll", "chilli chicken"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/qR1HtWDk/IMG-20240626-WA0321.webp"
+    },
+    {
+      "id": 350,
+      "name": "puchka lane",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.356921, 22.518131]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/Y0VcRYwZ/IMG-20240626-WA0322.webp"
+    },
+    {
+      "id": 351,
+      "name": "puchka trend",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/L40MmKZD/IMG-20240626-WA0323.webp"
+    },
+    {
+      "id": 352,
+      "name": "puchak peak",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/wTC8sX2s/IMG-20240626-WA0325.webp"
+    },
+    {
+      "id": 353,
+      "name": "chana muri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/ZKBzR78S/IMG-20240626-WA0332.webp"
+    },
+    {
+      "id": 354,
+      "name": "bhel muri",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/W10RmdYY/IMG-20240626-WA0336.webp"
+    },
+    {
+      "id": 355,
+      "name": "SugarCane Juicer",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.3, 22.5]
+      },
+    "foodItems": ["Sugarcane Juice"],
+      "hygieneRating": 3,
+      "tasteRating": 3,
+      "hospitalityRating": 4,
+      "photoUrl": "https://i.postimg.cc/0NvTV9Lk/IMG-20240626-WA0337.webp"
+    },
 
-},
-{
-    "id": 2,
-    "name": "Durga Pandit Ka Puchka",
-    "location": {
+    {
+      "id": 1,
+      "name": "Bhel Puri Batata Puri",
+      "location": {
         "type": "Point",
-        "coordinates": [88.358883, 22.514442]   
+        "coordinates": [88.358976, 22.514412]
+      },
+      "foodItems": ["Bhel Puri", "Batata Puri"],
+      "hygieneRating": 5,
+      "tasteRating": 5,
+      "hospitalityRating": 5,
+      "photoUrl": "https://i.postimg.cc/Fsbnq3tz/bhel-puri-batata-puri.webp"
     },
-    "foodItems": ["Special Puchka", "Normal Puchka", "special Alurdam", "Alurdam Puchka", "sweet Puchka", "alurdam churmur"],
-    "hygieneRating": 5,
-    "tasteRating": 5,
-    "hospitalityRating": 5,
-    "photoUrl": "https://i.postimg.cc/Wpg9Fg18/durga-pandit-ka-puchka.webp"
-
-},
-{
-    "id": 3,
-    "name": "Maharaja Chat Center",
-    "location": {
+    {
+      "id": 2,
+      "name": "Durga Pandit Ka Puchka",
+      "location": {
         "type": "Point",
-        "coordinates": [88.358999, 22.514359]   
+        "coordinates": [88.358883, 22.514442]
+      },
+      "foodItems": [
+        "Special Puchka",
+        "Normal Puchka",
+        "special Alurdam",
+        "Alurdam Puchka",
+        "sweet Puchka",
+        "alurdam churmur"
+      ],
+      "hygieneRating": 5,
+      "tasteRating": 5,
+      "hospitalityRating": 5,
+      "photoUrl": "https://i.postimg.cc/Wpg9Fg18/durga-pandit-ka-puchka.webp"
     },
-    "foodItems": ["Cheese Puchka", "Pizza Puchka", "Rabri Puchka", "Dahi Puchka"],
-    "hygieneRating": 5,
-    "tasteRating": 5,
-    "hospitalityRating": 5,
-    "photoUrl": "https://i.postimg.cc/Wzw69mDP/maharaja-chat-centre.webp"
-
-},
-{
-    "id": 4,
-    "name": "Maharaja Cold Drink Center",
-    "location": {
+    {
+      "id": 3,
+      "name": "Maharaja Chat Center",
+      "location": {
         "type": "Point",
-        "coordinates": [88.358988, 22.514390]   
+        "coordinates": [88.358999, 22.514359]
+      },
+      "foodItems": [
+        "Cheese Puchka",
+        "Pizza Puchka",
+        "Rabri Puchka",
+        "Dahi Puchka"
+      ],
+      "hygieneRating": 5,
+      "tasteRating": 5,
+      "hospitalityRating": 5,
+      "photoUrl": "https://i.postimg.cc/Wzw69mDP/maharaja-chat-centre.webp"
     },
-    "foodItems": ["Malasa Thumpsup", "Masala Limca", "Masala Pepsi", "Soda Shikanji"],
-    "hygieneRating": 5,
-    "tasteRating": 5,
-    "hospitalityRating": 5,
-    "photoUrl": "https://i.postimg.cc/c4dcvzj1/maharaja-cold-drink-centre.webp"
-
-},
-{
-    "id": 5,
-    "name": "Shri Mishri Lal Pandit",
-    "location": {
+    {
+      "id": 4,
+      "name": "Maharaja Cold Drink Center",
+      "location": {
         "type": "Point",
-        "coordinates": [88.358937, 22.514427]   
+        "coordinates": [88.358988, 22.51439]
+      },
+      "foodItems": [
+        "Malasa Thumpsup",
+        "Masala Limca",
+        "Masala Pepsi",
+        "Soda Shikanji"
+      ],
+      "hygieneRating": 5,
+      "tasteRating": 5,
+      "hospitalityRating": 5,
+      "photoUrl": "https://i.postimg.cc/c4dcvzj1/maharaja-cold-drink-centre.webp"
     },
-    "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
-    "hygieneRating": 5,
-    "tasteRating": 5,
-    "hospitalityRating": 5,
-    "photoUrl": "https://i.postimg.cc/4NFhXFRS/shri-mishri-lal-pandit.webp"
-
-},
-{
-    "id": 6,
-    "name": "Shri Thakur Pandit ka Puchka",
-    "location": {
+    {
+      "id": 5,
+      "name": "Shri Mishri Lal Pandit",
+      "location": {
         "type": "Point",
-        "coordinates": [88.358928, 22.514521]   
+        "coordinates": [88.358937, 22.514427]
+      },
+      "foodItems": [
+        "Alum Dum",
+        "Churmur",
+        "Alu Chat",
+        "Dahi bada",
+        "Ragra Chat",
+        "Alu Dum Masala",
+        "Puchka",
+        "Puchka Masala"
+      ],
+      "hygieneRating": 5,
+      "tasteRating": 5,
+      "hospitalityRating": 5,
+      "photoUrl": "https://i.postimg.cc/4NFhXFRS/shri-mishri-lal-pandit.webp"
     },
-    "foodItems": ["Alum Dum", "Churmur", "Alu Chat", "Dahi bada", "Ragra Chat", "Alu Dum Masala", "Puchka", "Puchka Masala"],
-    "hygieneRating": 5,
-    "tasteRating": 5,
-    "hospitalityRating": 5,
-    "photoUrl": "https://i.postimg.cc/CLtd3Bjy/Whats-App-Image-2024-06-18-at-18-32-43-20833f5e.webp"
-
-}
-
-]
-
+    {
+      "id": 6,
+      "name": "Shri Thakur Pandit ka Puchka",
+      "location": {
+        "type": "Point",
+        "coordinates": [88.358928, 22.514521]
+      },
+      "foodItems": [
+        "Alum Dum",
+        "Churmur",
+        "Alu Chat",
+        "Dahi bada",
+        "Ragra Chat",
+        "Alu Dum Masala",
+        "Puchka",
+        "Puchka Masala"
+      ],
+      "hygieneRating": 5,
+      "tasteRating": 5,
+      "hospitalityRating": 5,
+      "photoUrl": "https://i.postimg.cc/CLtd3Bjy/Whats-App-Image-2024-06-18-at-18-32-43-20833f5e.webp"
+    }
+  ]
 }

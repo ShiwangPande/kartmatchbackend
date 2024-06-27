@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
@@ -19,7 +18,6 @@ app.get('/vendors', (req, res) => {
         res.json(cachedData);
         return;
     }
-
     const dataFilePath = path.join(__dirname, 'data.json');
     fs.readFile(dataFilePath, 'utf8', (err, data) => {
         if (err) {
