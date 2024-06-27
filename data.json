@@ -2637,7 +2637,7 @@
       "name": "riddhi puchka",
       "location": {
         "type": "Point",
-        "coordinates": [88352135.3, 22.543573]
+        "coordinates": [88.352135, 22.543573]
       },
       "foodItems": [
         "Special Puchka",
