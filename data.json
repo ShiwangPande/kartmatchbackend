@@ -626,7 +626,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/fTK2mFDD/bengal-sharbet-house.webp"
+      "photoUrl": "https://i.postimg.cc/g0d8d37f/bengal-sharbet-house.webp"
     },
     {
       "id": 49,
@@ -639,7 +639,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/YCCX33Cg/bombat-famour-chat.webp"
+      "photoUrl": "https://i.postimg.cc/ncyqRyGV/bombay-famour-chat.webp"
     },
     {
       "id": 50,
@@ -652,7 +652,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/bN8VG8Xm/bhel-house.webp"
+      "photoUrl": "https://i.postimg.cc/YCQYJdd6/Bhel-House.webp"
     },
     {
       "id": 51,
@@ -701,7 +701,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/g2tgBZx7/chiruni-pav-bhaji.webp"
+      "photoUrl": "https://i.postimg.cc/FzbSqZbW/chiruni-pav-bhaji.webp"
     },
     {
       "id": 54,
@@ -714,11 +714,11 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/R03grZfZ/ganga-puchka-corner.webp"
+      "photoUrl": "https://i.postimg.cc/8cgWt3vf/ganga-puchka-corner.webp"
     },
     {
       "id": 55,
-      "name": "ganguly pan pala",
+      "name": "ganguly pan palace",
       "location": {
         "type": "Point",
         "coordinates": [88.346238, 22.525639]
@@ -727,7 +727,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/tgL29Gtt/ganguly-pan-palace.webp"
+      "photoUrl": "https://i.postimg.cc/RCwwNSr7/ganguly-pan-pala.webp"
     },
     {
       "id": 56,
@@ -766,7 +766,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/7h49T1R5/maya-bose-jai-jawan-stall.webp"
+      "photoUrl": "https://i.postimg.cc/zX5Khs59/maya-bose-jai-jawan-stall.webp"
     },
     {
       "id": 59,
@@ -779,7 +779,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/FzxZbdtD/mishti-kachori.webp"
+      "photoUrl": "https://i.postimg.cc/zXjWFxG3/mishti-kachori.webp"
     },
     {
       "id": 60,
@@ -823,7 +823,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/4xy5txWQ/murmura-mastaan.webp"
+      "photoUrl": "https://i.postimg.cc/9QQ98yDb/murmura-mastaan.webp"
     },
     {
       "id": 63,
@@ -841,7 +841,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/XvykHDSZ/nirvana-nimbu-pani.webp"
+      "photoUrl": "https://i.postimg.cc/mgpH0hMs/nirvana-nimbu-pani.webp"
     },
     {
       "id": 64,
@@ -858,7 +858,7 @@
     },
     {
       "id": 65,
-      "name": "puchka-pritam",
+      "name": "puchka pritam",
       "location": {
         "type": "Point",
         "coordinates": [88.344259, 22.540674]
@@ -867,7 +867,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/mDfN0NBm/puchka-pritam.webp"
+      "photoUrl": "https://i.postimg.cc/FK2JHqDC/puchka-pritam.webp"
     },
     {
       "id": 66,
@@ -880,7 +880,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/vHHLFmww/raja-chat.webp"
+      "photoUrl": "https://i.postimg.cc/cHwtgmzx/raja-chat.webp"
     },
     {
       "id": 67,
@@ -893,7 +893,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/ZnJPqb93/raja-pan-masala.webp"
+      "photoUrl": "https://i.postimg.cc/nrxjvm8v/raja-pan-masala.webp"
     },
     {
       "id": 68,
@@ -906,7 +906,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/ry9CPrb9/saraswati-murmura.webp"
+      "photoUrl": "https://i.postimg.cc/RhT3G092/saraswati-murmura.webp"
     },
     {
       "id": 69,
@@ -928,7 +928,7 @@
     },
     {
       "id": 70,
-      "name": "special bhej puri",
+      "name": "special bhel puri",
       "location": {
         "type": "Point",
         "coordinates": [88.333012, 22.559309]
@@ -937,7 +937,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/BnjTbwvh/spl-bhej-puri.webp"
+      "photoUrl": "https://i.postimg.cc/pXhDBW81/special-bhel-puri.webp"
     },
     {
       "id": 71,
@@ -950,7 +950,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/9QsG7tRc/spl-chaat-corner.webp"
+      "photoUrl": "https://i.postimg.cc/sx85RqFc/spl-chaat-corner.webp"
     },
     {
       "id": 72,
@@ -981,7 +981,7 @@
       "hygieneRating": 4,
       "tasteRating": 4,
       "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/JnLZTr5g/sunder-kachori.webp"
+      "photoUrl": "https://i.postimg.cc/Y2y6gG4W/sunder-kachori.webp"
     },
     {
       "id": 74,
