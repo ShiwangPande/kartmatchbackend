@@ -1436,12 +1436,12 @@
     },
     {
       "id": 104,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345566, 22.573552]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1449,7 +1449,7 @@
     },
     {
       "id": 105,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346071, 22.574231]
@@ -1553,12 +1553,12 @@
     },
     {
       "id": 113,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352537, 22.567916]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1566,12 +1566,12 @@
     },
     {
       "id": 114,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351872, 22.566631]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1579,12 +1579,12 @@
     },
     {
       "id": 115,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352825, 22.568103]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1592,12 +1592,12 @@
     },
     {
       "id": 116,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.353217, 22.569852]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1605,12 +1605,12 @@
     },
     {
       "id": 117,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.353187, 22.569819]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1618,12 +1618,12 @@
     },
     {
       "id": 118,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.353592, 22.573494]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1631,12 +1631,12 @@
     },
     {
       "id": 119,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.353592, 22.573483]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1644,12 +1644,12 @@
     },
     {
       "id": 120,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.35301, 22.574271]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1657,12 +1657,12 @@
     },
     {
       "id": 121,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.35306, 22.574286]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1670,12 +1670,12 @@
     },
     {
       "id": 122,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352928, 22.574225]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1683,12 +1683,12 @@
     },
     {
       "id": 123,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352837, 22.574224]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1696,12 +1696,12 @@
     },
     {
       "id": 124,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352492, 22.57442]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1709,12 +1709,12 @@
     },
     {
       "id": 125,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352652, 22.574318]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1722,12 +1722,12 @@
     },
     {
       "id": 126,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352835, 22.574243]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1735,12 +1735,12 @@
     },
     {
       "id": 127,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352103, 22.574517]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1748,12 +1748,12 @@
     },
     {
       "id": 128,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352357, 22.574424]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1761,12 +1761,12 @@
     },
     {
       "id": 129,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351881, 22.574582]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1774,12 +1774,12 @@
     },
     {
       "id": 130,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351943, 22.574525]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1787,12 +1787,12 @@
     },
     {
       "id": 131,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.35184, 22.574591]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1800,12 +1800,12 @@
     },
     {
       "id": 132,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.35088, 22.575354]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1813,12 +1813,12 @@
     },
     {
       "id": 133,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.350647, 22.575262]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1826,12 +1826,12 @@
     },
     {
       "id": 134,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.349775, 22.574295]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1839,12 +1839,12 @@
     },
     {
       "id": 135,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.350004, 22.574729]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1852,12 +1852,12 @@
     },
     {
       "id": 136,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.349788, 22.574265]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1865,12 +1865,12 @@
     },
     {
       "id": 137,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.349702, 22.574001]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1878,12 +1878,12 @@
     },
     {
       "id": 138,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347931, 22.575139]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1891,12 +1891,12 @@
     },
     {
       "id": 139,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.349764, 22.574296]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1904,12 +1904,12 @@
     },
     {
       "id": 140,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.348345, 22.574895]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1917,12 +1917,12 @@
     },
     {
       "id": 141,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.47724, 22.575228]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1930,12 +1930,12 @@
     },
     {
       "id": 142,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347946, 22.575118]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1943,12 +1943,12 @@
     },
     {
       "id": 143,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347653, 22.575235]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1956,12 +1956,12 @@
     },
     {
       "id": 144,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347077, 22.575531]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1969,12 +1969,12 @@
     },
     {
       "id": 145,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346819, 22.575424]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1982,12 +1982,12 @@
     },
     {
       "id": 146,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346936, 22.575538]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1995,12 +1995,12 @@
     },
     {
       "id": 147,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346544, 22.575011]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2008,12 +2008,12 @@
     },
     {
       "id": 148,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346525, 22.574979]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2021,12 +2021,12 @@
     },
     {
       "id": 149,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.344677, 22.572175]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2034,12 +2034,12 @@
     },
     {
       "id": 150,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346081, 22.571486]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2047,12 +2047,12 @@
     },
     {
       "id": 151,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346756, 22.57128]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2060,12 +2060,12 @@
     },
     {
       "id": 152,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347204, 22.571233]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2073,12 +2073,12 @@
     },
     {
       "id": 153,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347062, 22.571254]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2086,12 +2086,12 @@
     },
     {
       "id": 154,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347338, 22.571183]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2099,12 +2099,12 @@
     },
     {
       "id": 155,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345941, 22.569365]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2112,12 +2112,12 @@
     },
     {
       "id": 156,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.34583, 22.569229]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2125,12 +2125,12 @@
     },
     {
       "id": 157,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.344887, 22.569671]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2138,12 +2138,12 @@
     },
     {
       "id": 158,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345544, 22.569874]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2151,12 +2151,12 @@
     },
     {
       "id": 159,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.344887, 22.569671]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2164,12 +2164,12 @@
     },
     {
       "id": 160,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.344711, 22.570141]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2177,12 +2177,12 @@
     },
     {
       "id": 161,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.34484, 22.570386]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2190,12 +2190,12 @@
     },
     {
       "id": 162,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.344696, 22.570148]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2203,12 +2203,12 @@
     },
     {
       "id": 163,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.344826, 22.570257]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2216,12 +2216,12 @@
     },
     {
       "id": 164,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345024, 22.570631]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2229,12 +2229,12 @@
     },
     {
       "id": 165,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345004, 22.570662]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2242,12 +2242,12 @@
     },
     {
       "id": 166,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345095, 22.570698]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2255,12 +2255,12 @@
     },
     {
       "id": 167,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345057, 22.570712]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2268,12 +2268,12 @@
     },
     {
       "id": 168,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.345952, 22.571564]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2281,12 +2281,12 @@
     },
     {
       "id": 169,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346775, 22.572094]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2294,12 +2294,12 @@
     },
     {
       "id": 170,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.347136, 22.572672]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2307,12 +2307,12 @@
     },
     {
       "id": 171,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346915, 22.573053]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2320,12 +2320,12 @@
     },
     {
       "id": 172,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346792, 22.572118]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2333,12 +2333,12 @@
     },
     {
       "id": 173,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346503, 22.573116]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2346,12 +2346,12 @@
     },
     {
       "id": 174,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.346144, 22.573452]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2360,12 +2360,12 @@
 
     {
       "id": 175,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351514, 22.569994]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2373,12 +2373,12 @@
     },
     {
       "id": 176,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351102, 22.569923]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2386,12 +2386,12 @@
     },
     {
       "id": 177,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.35172, 22.570008]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2399,12 +2399,12 @@
     },
     {
       "id": 178,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352405, 22.569591]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2412,12 +2412,12 @@
     },
     {
       "id": 179,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351498, 22.569863]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2425,12 +2425,12 @@
     },
     {
       "id": 180,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352888, 22.5689]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2438,12 +2438,12 @@
     },
     {
       "id": 181,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351471, 22.569903]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2451,12 +2451,12 @@
     },
     {
       "id": 182,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352545, 22.569593]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2464,12 +2464,12 @@
     },
     {
       "id": 183,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352764, 22.56958]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2477,12 +2477,12 @@
     },
     {
       "id": 184,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352501, 22.568099]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2490,12 +2490,12 @@
     },
     {
       "id": 185,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352068, 22.566872]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2503,12 +2503,12 @@
     },
     {
       "id": 186,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352838, 22.568789]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2516,12 +2516,12 @@
     },
     {
       "id": 187,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352761, 22.567517]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2529,12 +2529,12 @@
     },
     {
       "id": 188,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352634, 22.56807]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2542,12 +2542,12 @@
     },
     {
       "id": 189,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.35251, 22.56786]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2555,12 +2555,12 @@
     },
     {
       "id": 190,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.351964, 22.566701]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2568,12 +2568,12 @@
     },
     {
       "id": 191,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.353056, 22.568917]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2581,12 +2581,12 @@
     },
     {
       "id": 192,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352598, 22.567709]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2594,12 +2594,12 @@
     },
     {
       "id": 193,
-      "name": "",
+      "name": "shri ram nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.3519, 22.566481]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2612,7 +2612,7 @@
         "type": "Point",
         "coordinates": [88.352869, 22.568255]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2872,7 +2872,7 @@
       "name": "Mishti Mukh",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356925, 22.518135]
       },
       "foodItems": ["Rasgulla", "Sandesh", "Mishti Doi", "Cham Cham"],
       "hygieneRating": 3,
@@ -3376,7 +3376,7 @@
       "name": "Puchka Fusion",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356925, 22.518135]
       },
       "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
       "hygieneRating": 3,
@@ -3402,7 +3402,7 @@
       "name": "Classic batata",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356925, 22.518135]
       },
      "foodItems": [
         "Roasted Gram (Chana)",
@@ -3420,7 +3420,7 @@
       "name": "Sada Pan Corner",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356925, 22.518135]
       },
       "foodItems": ["Meetha Pan Masala", "Sada Pan Masala", "Banarasi Pan Masala", "Mint Pan Masala", "Rose Pan Masala"],
       "hygieneRating": 3,
@@ -3513,7 +3513,7 @@
         "type": "Point",
         "coordinates": [88.375880, 22.5479863]
       },
-      "foodItems": ["", ""],
+      "foodItems": ["puri", "sabji", "dahi", "lassi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -4448,7 +4448,7 @@
       "name": "puchka trend",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356925, 22.518135]
       },
       "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
       "hygieneRating": 3,
@@ -4461,7 +4461,7 @@
       "name": "puchak peak",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356930, 22.518130]
       },
       "foodItems":["Aloo Puchka", "Dahi Puchka", "Masala Puchka", "Sukha Puchka", "Pudina Puchka", "Meetha Puchka", "Spicy Puchka", "Stuffed Puchka"],
       "hygieneRating": 3,
@@ -4474,7 +4474,7 @@
       "name": "chana muri",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356935, 22.518128]
       },
       "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
@@ -4487,7 +4487,7 @@
       "name": "bhel muri",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356924, 22.518120]
       },
       "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
@@ -4500,7 +4500,7 @@
       "name": "SugarCane Juicer",
       "location": {
         "type": "Point",
-        "coordinates": [88.3, 22.5]
+        "coordinates": [88.356948, 22.518130]
       },
     "foodItems": ["Sugarcane Juice"],
       "hygieneRating": 3,
