@@ -1423,12 +1423,12 @@
     },
     {
       "id": 103,
-      "name": "shri ram nashta",
+      "name": "Bhatura wala",
       "location": {
         "type": "Point",
         "coordinates": [88.347751, 22.575192]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1436,12 +1436,12 @@
     },
     {
       "id": 104,
-      "name": "shri ram nashta",
+      "name": "curry bhandar",
       "location": {
         "type": "Point",
         "coordinates": [88.345566, 22.573552]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1449,7 +1449,7 @@
     },
     {
       "id": 105,
-      "name": "shri ram nashta",
+      "name": "chana jhalmuri",
       "location": {
         "type": "Point",
         "coordinates": [88.346071, 22.574231]
@@ -1553,12 +1553,12 @@
     },
     {
       "id": 113,
-      "name": "shri ram nashta",
+      "name": "kannad nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352537, 22.567916]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Fried Rice", "veg rice", "sabji", "veg paneer"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1566,12 +1566,12 @@
     },
     {
       "id": 114,
-      "name": "shri ram nashta",
+      "name": "ram bandar",
       "location": {
         "type": "Point",
         "coordinates": [88.351872, 22.566631]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Fried Rice", "veg rice", "sabji", "veg paneer"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1579,12 +1579,17 @@
     },
     {
       "id": 115,
-      "name": "shri ram nashta",
+      "name": "Namkeen center",
       "location": {
         "type": "Point",
         "coordinates": [88.352825, 22.568103]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+     "foodItems": [
+        "Roasted Gram (Chana)",
+        "Puffed Rice (Murmura)",
+        "Flattened Rice (Poha)",
+        "Sev"
+      ],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1592,12 +1597,12 @@
     },
     {
       "id": 116,
-      "name": "shri ram nashta",
+      "name": "shri Jhalmuri puri",
       "location": {
         "type": "Point",
         "coordinates": [88.353217, 22.569852]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1605,12 +1610,12 @@
     },
     {
       "id": 117,
-      "name": "shri ram nashta",
+      "name": "muri fast food",
       "location": {
         "type": "Point",
         "coordinates": [88.353187, 22.569819]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1618,12 +1623,12 @@
     },
     {
       "id": 118,
-      "name": "shri ram nashta",
+      "name": "Haju's Darbar",
       "location": {
         "type": "Point",
         "coordinates": [88.353592, 22.573494]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["roll", "Egg Roll","veg roll","Mutton Roll", "Paneer Roll", "spring roll"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1631,12 +1636,12 @@
     },
     {
       "id": 119,
-      "name": "shri ram nashta",
+      "name": "Ashma Fast food",
       "location": {
         "type": "Point",
         "coordinates": [88.353592, 22.573483]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["pizza", "noodles", "Samosa", "roll"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1644,12 +1649,12 @@
     },
     {
       "id": 120,
-      "name": "shri ram nashta",
+      "name": "hanuman nashta center",
       "location": {
         "type": "Point",
         "coordinates": [88.35301, 22.574271]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Rice", "Fried Rice", "Aloo Bhatura", "puri"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1657,12 +1662,12 @@
     },
     {
       "id": 121,
-      "name": "shri ram nashta",
+      "name": "somosa center",
       "location": {
         "type": "Point",
         "coordinates": [88.35306, 22.574286]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Samosa", "Samosa Chat", "kadi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1670,12 +1675,12 @@
     },
     {
       "id": 122,
-      "name": "shri ram nashta",
+      "name": "Spicy Pakoda Zone",
       "location": {
         "type": "Point",
         "coordinates": [88.352928, 22.574225]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1683,12 +1688,12 @@
     },
     {
       "id": 123,
-      "name": "shri ram nashta",
+      "name": "batura nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352837, 22.574224]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1696,12 +1701,12 @@
     },
     {
       "id": 124,
-      "name": "shri ram nashta",
+      "name": "chowmein nashta",
       "location": {
         "type": "Point",
         "coordinates": [88.352492, 22.57442]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1709,12 +1714,12 @@
     },
     {
       "id": 125,
-      "name": "shri ram nashta",
+      "name": "momo corner",
       "location": {
         "type": "Point",
         "coordinates": [88.352652, 22.574318]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Veg Momos", "Chicken Momos", "Paneer Momos", "Tandoori Momos"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1722,12 +1727,12 @@
     },
     {
       "id": 126,
-      "name": "shri ram nashta",
+      "name": "Rava Dosa Junction",
       "location": {
         "type": "Point",
         "coordinates": [88.352835, 22.574243]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Masala Dosa", "Plain Dosa", "Rava Dosa", "Paneer Dosa", "Mysore Dosa"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1735,12 +1740,12 @@
     },
     {
       "id": 127,
-      "name": "shri ram nashta",
+      "name": "Nimbu Masala Muri corner",
       "location": {
         "type": "Point",
         "coordinates": [88.352103, 22.574517]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1748,12 +1753,12 @@
     },
     {
       "id": 128,
-      "name": "shri ram nashta",
+      "name": "Paratha Paradise",
       "location": {
         "type": "Point",
         "coordinates": [88.352357, 22.574424]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Aloo Paratha", "Paneer Paratha", "Gobhi Paratha", "Methi Paratha", "Keema Paratha", "Onion Paratha", "Mixed Veg Paratha"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1761,12 +1766,12 @@
     },
     {
       "id": 129,
-      "name": "shri ram nashta",
+      "name": "Aloo Paratha Corner",
       "location": {
         "type": "Point",
         "coordinates": [88.351881, 22.574582]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Masala Dosa", "Plain Dosa", "Rava Dosa", "Paneer Dosa", "Mysore Dosa"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1774,12 +1779,12 @@
     },
     {
       "id": 130,
-      "name": "shri ram nashta",
+      "name": "javed egg center",
       "location": {
         "type": "Point",
         "coordinates": [88.351943, 22.574525]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1787,12 +1792,12 @@
     },
     {
       "id": 131,
-      "name": "shri ram nashta",
+      "name": "chicken pakoda wala",
       "location": {
         "type": "Point",
         "coordinates": [88.35184, 22.574591]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda", "chicken pakoda"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1813,12 +1818,12 @@
     },
     {
       "id": 133,
-      "name": "shri ram nashta",
+      "name": "Bhatura stall",
       "location": {
         "type": "Point",
         "coordinates": [88.350647, 22.575262]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1839,12 +1844,12 @@
     },
     {
       "id": 135,
-      "name": "shri ram nashta",
+      "name": "cheesy noodle",
       "location": {
         "type": "Point",
         "coordinates": [88.350004, 22.574729]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1852,12 +1857,12 @@
     },
     {
       "id": 136,
-      "name": "shri ram nashta",
+      "name": "Masala Dosa House",
       "location": {
         "type": "Point",
         "coordinates": [88.349788, 22.574265]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Masala Dosa", "Plain Dosa", "Rava Dosa", "Paneer Dosa", "Mysore Dosa"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1865,12 +1870,12 @@
     },
     {
       "id": 137,
-      "name": "shri ram nashta",
+      "name": "samrat roll center",
       "location": {
         "type": "Point",
         "coordinates": [88.349702, 22.574001]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["chow", "veg chow", "egg chow", "mix chow", "paneer roll", "Egg Roll", "Mutton Roll"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1891,12 +1896,12 @@
     },
     {
       "id": 139,
-      "name": "shri ram nashta",
+      "name": "Misal Pav Corner",
       "location": {
         "type": "Point",
         "coordinates": [88.349764, 22.574296]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Vada Pav", "Misal Pav", "Bhaji Pav", "Masala Pav", "Cheese Pav", "Schezwan Pav", "Butter Pav"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1904,12 +1909,12 @@
     },
     {
       "id": 140,
-      "name": "shri ram nashta",
+      "name": "Noodle & pasta center",
       "location": {
         "type": "Point",
         "coordinates": [88.348345, 22.574895]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chowmein", "Hakka Noodles", "Schezwan Noodles", "Garlic Noodles", "Pasta"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1917,12 +1922,12 @@
     },
     {
       "id": 141,
-      "name": "shri ram nashta",
+      "name": "pakoda and sweets",
       "location": {
         "type": "Point",
         "coordinates": [88.47724, 22.575228]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda", "jalebi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1930,12 +1935,12 @@
     },
     {
       "id": 142,
-      "name": "shri ram nashta",
+      "name": "Rice and sabji center",
       "location": {
         "type": "Point",
         "coordinates": [88.347946, 22.575118]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda", "jalebi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1943,12 +1948,12 @@
     },
     {
       "id": 143,
-      "name": "shri ram nashta",
+      "name": "garam bhatura",
       "location": {
         "type": "Point",
         "coordinates": [88.347653, 22.575235]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1956,12 +1961,12 @@
     },
     {
       "id": 144,
-      "name": "shri ram nashta",
+      "name": "momo & rice corner fast food",
       "location": {
         "type": "Point",
         "coordinates": [88.347077, 22.575531]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["steam veg momo", "fry veg momo", "lalipop", "veg fried rice", "chicken fried rice", "egg fried rice"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1969,12 +1974,12 @@
     },
     {
       "id": 145,
-      "name": "shri ram nashta",
+      "name": "Kullad tea and biscuit",
       "location": {
         "type": "Point",
         "coordinates": [88.346819, 22.575424]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Masala Chai", "Ginger Tea", "Lemon Tea", "Green Tea", "Black Tea", "Elaichi Tea"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -1982,38 +1987,25 @@
     },
     {
       "id": 146,
-      "name": "shri ram nashta",
+      "name": "guddu chana and muri",
       "location": {
         "type": "Point",
         "coordinates": [88.346936, 22.575538]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
       "photoUrl": "https://i.postimg.cc/G22RfbrP/IMG-20240625-WA0132.webp"
     },
     {
-      "id": 147,
-      "name": "shri ram nashta",
-      "location": {
-        "type": "Point",
-        "coordinates": [88.346544, 22.575011]
-      },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
-      "hygieneRating": 3,
-      "tasteRating": 3,
-      "hospitalityRating": 4,
-      "photoUrl": "https://i.postimg.cc/8zRTJytv/IMG-20240625-WA0133.webp"
-    },
-    {
       "id": 148,
-      "name": "shri ram nashta",
+      "name": "Sandesh Sweets",
       "location": {
         "type": "Point",
         "coordinates": [88.346525, 22.574979]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Rasgulla", "Sandesh", "Mishti Doi", "Cham Cham"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2021,12 +2013,12 @@
     },
     {
       "id": 149,
-      "name": "shri ram nashta",
+      "name": "curry corner",
       "location": {
         "type": "Point",
         "coordinates": [88.344677, 22.572175]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2034,12 +2026,12 @@
     },
     {
       "id": 150,
-      "name": "shri ram nashta",
+      "name": "bhurji cornre",
       "location": {
         "type": "Point",
         "coordinates": [88.346081, 22.571486]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2047,12 +2039,12 @@
     },
     {
       "id": 151,
-      "name": "shri ram nashta",
+      "name": "sahin sandwich corner",
       "location": {
         "type": "Point",
         "coordinates": [88.346756, 22.57128]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Veg Sandwich", "Paneer Sandwich", "Grilled Cheese Sandwich", "Club Sandwich", "Egg Sandwich", "Chicken Sandwich"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2060,12 +2052,12 @@
     },
     {
       "id": 152,
-      "name": "shri ram nashta",
+      "name": "Shahi biryani",
       "location": {
         "type": "Point",
         "coordinates": [88.347204, 22.571233]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["veh biryani","full biryani","chicken biryani", "half biryani"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2073,12 +2065,12 @@
     },
     {
       "id": 153,
-      "name": "shri ram nashta",
+      "name": "egg and biscuit",
       "location": {
         "type": "Point",
         "coordinates": [88.347062, 22.571254]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop", "Biscuit"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2086,12 +2078,12 @@
     },
     {
       "id": 154,
-      "name": "shri ram nashta",
+      "name": "sandish pakoda",
       "location": {
         "type": "Point",
         "coordinates": [88.347338, 22.571183]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2099,12 +2091,12 @@
     },
     {
       "id": 155,
-      "name": "shri ram nashta",
+      "name": "egg curry point",
       "location": {
         "type": "Point",
         "coordinates": [88.345941, 22.569365]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+"foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop", "Biscuit"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2112,12 +2104,12 @@
     },
     {
       "id": 156,
-      "name": "shri ram nashta",
+      "name": "curry and bhuri point",
       "location": {
         "type": "Point",
         "coordinates": [88.34583, 22.569229]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+ "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop", "Biscuit"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2125,12 +2117,12 @@
     },
     {
       "id": 157,
-      "name": "shri ram nashta",
+      "name": "chana muri corner",
       "location": {
         "type": "Point",
         "coordinates": [88.344887, 22.569671]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2138,12 +2130,12 @@
     },
     {
       "id": 158,
-      "name": "shri ram nashta",
+      "name": "steam momos",
       "location": {
         "type": "Point",
         "coordinates": [88.345544, 22.569874]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Veg Momos", "Chicken Momos", "Paneer Momos", "Tandoori Momos"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2151,12 +2143,12 @@
     },
     {
       "id": 159,
-      "name": "shri ram nashta",
+      "name": "sDesi Litti Chokha",
       "location": {
         "type": "Point",
         "coordinates": [88.344887, 22.569671]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Classic Litti Chokha", "Spicy Litti Chokha", "Stuffed Litti Chokha", "Paneer Litti Chokha"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2164,12 +2156,12 @@
     },
     {
       "id": 160,
-      "name": "shri ram nashta",
+      "name": "jhalmuri corner",
       "location": {
         "type": "Point",
         "coordinates": [88.344711, 22.570141]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2177,12 +2169,12 @@
     },
     {
       "id": 161,
-      "name": "shri ram nashta",
+      "name": "bhautra corner",
       "location": {
         "type": "Point",
         "coordinates": [88.34484, 22.570386]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2190,12 +2182,12 @@
     },
     {
       "id": 162,
-      "name": "shri ram nashta",
+      "name": "samosa and kachori center",
       "location": {
         "type": "Point",
         "coordinates": [88.344696, 22.570148]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["samosa", "kachori", "ladoo"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2203,12 +2195,12 @@
     },
     {
       "id": 163,
-      "name": "shri ram nashta",
+      "name": "aloo pakoda corner",
       "location": {
         "type": "Point",
         "coordinates": [88.344826, 22.570257]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2216,12 +2208,12 @@
     },
     {
       "id": 164,
-      "name": "shri ram nashta",
+      "name": "egg chop",
       "location": {
         "type": "Point",
         "coordinates": [88.345024, 22.570631]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2229,12 +2221,12 @@
     },
     {
       "id": 165,
-      "name": "shri ram nashta",
+      "name": "garam pakoda",
       "location": {
         "type": "Point",
         "coordinates": [88.345004, 22.570662]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Aloo Pakoda", "Pyaz Pakoda", "Palak Pakoda", "Paneer Pakoda"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2242,12 +2234,12 @@
     },
     {
       "id": 166,
-      "name": "shri ram nashta",
+      "name": "chana corner",
       "location": {
         "type": "Point",
         "coordinates": [88.345095, 22.570698]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  ["Classic Jhalmuri", "Masala Muri", "Chana Jhalmuri", "Peanut Jhalmuri", "Kancha Muri", "Nimbu Masala Muri", "Bhel Puri", "Muri Chaat"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2255,12 +2247,12 @@
     },
     {
       "id": 167,
-      "name": "shri ram nashta",
+      "name": "Rahat Fast Food",
       "location": {
         "type": "Point",
         "coordinates": [88.345057, 22.570712]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Rice", "Pasta", "Fry items", "spring roll"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2268,12 +2260,12 @@
     },
     {
       "id": 168,
-      "name": "shri ram nashta",
+      "name": "kolkata biryani",
       "location": {
         "type": "Point",
         "coordinates": [88.345952, 22.571564]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chicken Biryani", "Mutton Biryani", "Veg Biryani", "Egg Biryani", "Paneer Biryani", "Hyderabadi Biryani", "Kolkata Biryani", "Lucknowi Biryani"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2281,12 +2273,12 @@
     },
     {
       "id": 169,
-      "name": "shri ram nashta",
+      "name": "rasedar curry",
       "location": {
         "type": "Point",
         "coordinates": [88.346775, 22.572094]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2294,12 +2286,12 @@
     },
     {
       "id": 170,
-      "name": "shri ram nashta",
+      "name": "Kolkata Biryani Point",
       "location": {
         "type": "Point",
         "coordinates": [88.347136, 22.572672]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chicken Biryani", "Mutton Biryani", "Veg Biryani", "Egg Biryani", "Paneer Biryani", "Hyderabadi Biryani", "Kolkata Biryani", "Lucknowi Biryani"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2307,12 +2299,12 @@
     },
     {
       "id": 171,
-      "name": "shri ram nashta",
+      "name": "ramesh egg corner",
       "location": {
         "type": "Point",
         "coordinates": [88.346915, 22.573053]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2320,12 +2312,12 @@
     },
     {
       "id": 172,
-      "name": "shri ram nashta",
+      "name": "kolkata chai center",
       "location": {
         "type": "Point",
         "coordinates": [88.346792, 22.572118]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Masala Chai", "Ginger Tea", "Lemon Tea", "Green Tea", "Black Tea", "Elaichi Tea"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2333,12 +2325,12 @@
     },
     {
       "id": 173,
-      "name": "shri ram nashta",
+      "name": "rasedar biryani",
       "location": {
         "type": "Point",
         "coordinates": [88.346503, 22.573116]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chicken Biryani", "Mutton Biryani", "Veg Biryani", "Egg Biryani", "Paneer Biryani", "Hyderabadi Biryani", "Kolkata Biryani", "Lucknowi Biryani"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2346,12 +2338,12 @@
     },
     {
       "id": 174,
-      "name": "shri ram nashta",
+      "name": "Garma Garam Kachori",
       "location": {
         "type": "Point",
         "coordinates": [88.346144, 22.573452]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Pyaz Kachori", "Dal Kachori", "Matar Kachori", "Rajma Kachori"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2360,12 +2352,12 @@
 
     {
       "id": 175,
-      "name": "shri ram nashta",
+      "name": "Egg roll center",
       "location": {
         "type": "Point",
         "coordinates": [88.351514, 22.569994]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2373,12 +2365,12 @@
     },
     {
       "id": 176,
-      "name": "shri ram nashta",
+      "name": "chola bhatura corner",
       "location": {
         "type": "Point",
         "coordinates": [88.351102, 22.569923]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2386,12 +2378,12 @@
     },
     {
       "id": 177,
-      "name": "shri ram nashta",
+      "name": "chat corner",
       "location": {
         "type": "Point",
         "coordinates": [88.35172, 22.570008]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Pani Puri", "Sev Puri", "Bhel Puri", "Dahi Puri", "Chaat Papdi", "Aloo Tikki Chaat", "Ragda Pattice"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2399,12 +2391,12 @@
     },
     {
       "id": 178,
-      "name": "shri ram nashta",
+      "name": "dosa point",
       "location": {
         "type": "Point",
         "coordinates": [88.352405, 22.569591]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Masala Dosa", "Plain Dosa", "Rava Dosa", "Paneer Dosa", "Mysore Dosa"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2412,12 +2404,12 @@
     },
     {
       "id": 179,
-      "name": "shri ram nashta",
+      "name": "Maggie center",
       "location": {
         "type": "Point",
         "coordinates": [88.351498, 22.569863]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["maggie", "Veg Maggi", "Cheese Maggi"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2425,12 +2417,12 @@
     },
     {
       "id": 180,
-      "name": "shri ram nashta",
+      "name": "puchka and chat center",
       "location": {
         "type": "Point",
         "coordinates": [88.352888, 22.5689]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Pani Puri", "Sev Puri", "Bhel Puri", "Dahi Puri", "Chaat Papdi", "Aloo Tikki Chaat", "Ragda Pattice"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2438,12 +2430,12 @@
     },
     {
       "id": 181,
-      "name": "shri ram nashta",
+      "name": "Ravikant south indian food",
       "location": {
         "type": "Point",
         "coordinates": [88.351471, 22.569903]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["idli vada", "idli", "aloo vanda", "plain dosa", "cheese dosa", "schezwan msaladosa", "uttapam"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2451,12 +2443,12 @@
     },
     {
       "id": 182,
-      "name": "shri ram nashta",
+      "name": "Spicy Biryani Corner",
       "location": {
         "type": "Point",
         "coordinates": [88.352545, 22.569593]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chicken Biryani", "Mutton Biryani", "Veg Biryani", "Egg Biryani", "Paneer Biryani", "Hyderabadi Biryani", "Kolkata Biryani", "Lucknowi Biryani"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2464,12 +2456,12 @@
     },
     {
       "id": 183,
-      "name": "shri ram nashta",
+      "name": "tasty bhatura",
       "location": {
         "type": "Point",
         "coordinates": [88.352764, 22.56958]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Plain Bhatura", "Paneer Bhatura", "Aloo Bhatura", "Stuffed Bhatura"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2477,12 +2469,12 @@
     },
     {
       "id": 184,
-      "name": "shri ram nashta",
+      "name": "Royal Biryani Stall",
       "location": {
         "type": "Point",
         "coordinates": [88.352501, 22.568099]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Chicken Biryani", "Mutton Biryani", "Veg Biryani", "Egg Biryani", "Paneer Biryani", "Hyderabadi Biryani", "Kolkata Biryani", "Lucknowi Biryani"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2490,12 +2482,12 @@
     },
     {
       "id": 185,
-      "name": "shri ram nashta",
+      "name": "Classic Toasted Sandwich",
       "location": {
         "type": "Point",
         "coordinates": [88.352068, 22.566872]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Veg Sandwich", "Paneer Sandwich", "Grilled Cheese Sandwich", "Club Sandwich", "Egg Sandwich", "Chicken Sandwich"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2503,12 +2495,12 @@
     },
     {
       "id": 186,
-      "name": "shri ram nashta",
+      "name": "authentic egg center",
       "location": {
         "type": "Point",
         "coordinates": [88.352838, 22.568789]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2516,12 +2508,12 @@
     },
     {
       "id": 187,
-      "name": "shri ram nashta",
+      "name": "shri fast food corner",
       "location": {
         "type": "Point",
         "coordinates": [88.352761, 22.567517]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["momos", "french fries", "pasta", "sandwich"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2529,12 +2521,12 @@
     },
     {
       "id": 188,
-      "name": "shri ram nashta",
+      "name": "curry point",
       "location": {
         "type": "Point",
         "coordinates": [88.352634, 22.56807]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Egg Roll", "Egg Curry", "Egg Bhurji", "Egg Chop"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2542,12 +2534,19 @@
     },
     {
       "id": 189,
-      "name": "shri ram nashta",
+      "name": "rasbhari puchka",
       "location": {
         "type": "Point",
         "coordinates": [88.35251, 22.56786]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  [
+        "Special Puchka",
+        "Normal Puchka",
+        "special Alurdam",
+        "Alurdam Puchka",
+        "sweet Puchka",
+        "alurdam churmur"
+      ],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2555,12 +2554,12 @@
     },
     {
       "id": 190,
-      "name": "shri ram nashta",
+      "name": "Crispy Dosa Corner",
       "location": {
         "type": "Point",
         "coordinates": [88.351964, 22.566701]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":["Masala Dosa", "Plain Dosa", "Rava Dosa", "Paneer Dosa", "Mysore Dosa"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2568,12 +2567,19 @@
     },
     {
       "id": 191,
-      "name": "shri ram nashta",
+      "name": "cr-7 puchka",
       "location": {
         "type": "Point",
         "coordinates": [88.353056, 22.568917]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems":  [
+        "Special Puchka",
+        "Normal Puchka",
+        "special Alurdam",
+        "Alurdam Puchka",
+        "sweet Puchka",
+        "alurdam churmur"
+      ],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2581,12 +2587,12 @@
     },
     {
       "id": 192,
-      "name": "shri ram nashta",
+      "name": "shri ram chat wala",
       "location": {
         "type": "Point",
         "coordinates": [88.352598, 22.567709]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Pani Puri", "Sev Puri", "Bhel Puri", "Dahi Puri", "Chaat Papdi", "Aloo Tikki Chaat", "Ragda Pattice"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2594,12 +2600,12 @@
     },
     {
       "id": 193,
-      "name": "shri ram nashta",
+      "name": "Fast food center indian & chinese",
       "location": {
         "type": "Point",
         "coordinates": [88.3519, 22.566481]
       },
-      "foodItems": ["puri", "sabji", "dahi", "lassi"],
+      "foodItems": ["Roll", "Chowmein", "egg curry", "pasta"],
       "hygieneRating": 3,
       "tasteRating": 3,
       "hospitalityRating": 4,
@@ -2607,7 +2613,7 @@
     },
     {
       "id": 194,
-      "name": "chai",
+      "name": "tea stall",
       "location": {
         "type": "Point",
         "coordinates": [88.352869, 22.568255]
