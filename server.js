@@ -13,7 +13,7 @@ app.use(cors());
 let cachedData = null; // Variable to cache the data
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
