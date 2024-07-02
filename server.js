@@ -1,6 +1,7 @@
+
 const express = require('express');
 const cors = require('cors');
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const path = require('path');
 const fs = require('fs');
 
@@ -9,6 +10,7 @@ const port = 3000;
 
 app.use(express.json());
 app.use(cors());
+
 
 const uri = "mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
@@ -80,8 +82,12 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
 app.delete('/api/comments/:commentId', async (req, res) => {
     try {
         const commentsCollection = db.collection('comments');
-        await commentsCollection.deleteOne({ _id: new MongoClient.ObjectId(req.params.commentId) });
-        res.status(200).json({ message: 'Comment deleted successfully' });
+        const result = await commentsCollection.deleteOne({ _id: new ObjectId(req.params.commentId) });
+        if (result.deletedCount === 1) {
+            res.status(200).json({ message: 'Comment deleted successfully' });
+        } else {
+            res.status(404).json({ message: 'Comment not found' });
+        }
     } catch (error) {
         console.error('Error deleting comment:', error);
         res.status(500).send('Internal Server Error');
