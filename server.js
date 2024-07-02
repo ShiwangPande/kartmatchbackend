@@ -79,6 +79,18 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
     }
 });
 
+// Endpoint to delete a comment
+app.delete('/api/comments/:commentId', async (req, res) => {
+    try {
+        await Comment.findByIdAndDelete(req.params.commentId);
+        res.status(200).json({ message: 'Comment deleted successfully' });
+    } catch (error) {
+        console.error('Error deleting comment:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
