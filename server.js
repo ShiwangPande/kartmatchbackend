@@ -1,7 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
 const mongoose = require('mongoose');
 
 const app = express();
@@ -10,35 +8,26 @@ const port = 3000;
 app.use(express.json());
 app.use(cors());
 
-let cachedData = null; // Variable to cache the data
-
-// MongoDB connection
 mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,  // Add this option
-    useFindAndModify: false  // Add this option
+    useCreateIndex: true,
+    useFindAndModify: false
 }).then(() => {
     console.log('Connected to MongoDB');
 }).catch((error) => {
     console.error('Error connecting to MongoDB:', error);
 });
 
-// Comment model
 const commentSchema = new mongoose.Schema({
     vendorId: String,
     comment: String,
+    userId: String,
 }, { timestamps: true });
 
 const Comment = mongoose.model('Comment', commentSchema);
 
-// Define API route to serve data.json
 app.get('/vendors', (req, res) => {
-    // If data is already cached, send it directly
-    if (cachedData) {
-        res.json(cachedData);
-        return;
-    }
     const dataFilePath = path.join(__dirname, 'data.json');
     fs.readFile(dataFilePath, 'utf8', (err, data) => {
         if (err) {
@@ -46,16 +35,10 @@ app.get('/vendors', (req, res) => {
             res.status(500).send('Internal Server Error');
             return;
         }
-        const vendorData = JSON.parse(data).vendorData;
-
-        // Cache the data for future requests
-        cachedData = vendorData;
-
-        res.json(vendorData);
+        res.json(JSON.parse(data).vendorData);
     });
 });
 
-// Endpoint to get comments for a vendor
 app.get('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
         const comments = await Comment.find({ vendorId: req.params.vendorId });
@@ -66,22 +49,21 @@ app.get('/api/vendors/:vendorId/comments', async (req, res) => {
     }
 });
 
-// Endpoint to add a comment for a vendor
 app.post('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
         const newComment = new Comment({
             vendorId: req.params.vendorId,
             comment: req.body.comment,
+            userId: req.body.userId
         });
-        await newComment.save();
-        res.status(201).json({ message: 'Comment added successfully', comment: newComment });
+        const savedComment = await newComment.save();
+        res.status(201).json(savedComment);
     } catch (error) {
         console.error('Error adding comment:', error);
         res.status(500).send('Internal Server Error');
     }
 });
 
-// Endpoint to delete a comment
 app.delete('/api/comments/:commentId', async (req, res) => {
     try {
         await Comment.findByIdAndDelete(req.params.commentId);
