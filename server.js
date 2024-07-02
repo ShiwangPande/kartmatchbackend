@@ -16,6 +16,8 @@ let cachedData = null; // Variable to cache the data
 mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true,  // Add this option
+    useFindAndModify: false  // Add this option
 }).then(() => {
     console.log('Connected to MongoDB');
 }).catch((error) => {
