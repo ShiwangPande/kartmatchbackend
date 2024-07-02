@@ -13,7 +13,7 @@ app.use(cors());
 let cachedData = null; // Variable to cache the data
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmtach', {
+mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
@@ -72,7 +72,7 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
             comment: req.body.comment,
         });
         await newComment.save();
-        res.status(201).json({ message: 'Comment added successfully' });
+        res.status(201).json({ message: 'Comment added successfully', comment: newComment });
     } catch (error) {
         console.error('Error adding comment:', error);
         res.status(500).send('Internal Server Error');
@@ -89,7 +89,6 @@ app.delete('/api/comments/:commentId', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
-
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
