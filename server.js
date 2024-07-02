@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
-const mongoose = require('mongoose');
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const path = require('path');
+const fs = require('fs');
 
 const app = express();
 const port = 3000;
@@ -8,24 +10,31 @@ const port = 3000;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-}).then(() => {
-    console.log('Connected to MongoDB');
-}).catch((error) => {
-    console.error('Error connecting to MongoDB:', error);
+const uri = "mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
+const client = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
 });
 
-const commentSchema = new mongoose.Schema({
-    vendorId: String,
-    comment: String,
-    userId: String,
-}, { timestamps: true });
+let db;
 
-const Comment = mongoose.model('Comment', commentSchema);
+// Function to connect to the MongoDB server
+async function connectToDatabase() {
+  try {
+    await client.connect();
+    await client.db("admin").command({ ping: 1 });
+    console.log("Pinged your deployment. You successfully connected to MongoDB!");
+    db = client.db("kartmatch");
+  } catch (error) {
+    console.error('Error connecting to MongoDB:', error);
+  }
+}
+
+// Connect to the database before starting the server
+connectToDatabase();
 
 app.get('/vendors', (req, res) => {
     const dataFilePath = path.join(__dirname, 'data.json');
@@ -41,7 +50,8 @@ app.get('/vendors', (req, res) => {
 
 app.get('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
-        const comments = await Comment.find({ vendorId: req.params.vendorId });
+        const commentsCollection = db.collection('comments');
+        const comments = await commentsCollection.find({ vendorId: req.params.vendorId }).toArray();
         res.json(comments);
     } catch (error) {
         console.error('Error fetching comments:', error);
@@ -51,13 +61,16 @@ app.get('/api/vendors/:vendorId/comments', async (req, res) => {
 
 app.post('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
-        const newComment = new Comment({
+        const commentsCollection = db.collection('comments');
+        const newComment = {
             vendorId: req.params.vendorId,
             comment: req.body.comment,
-            userId: req.body.userId
-        });
-        const savedComment = await newComment.save();
-        res.status(201).json(savedComment);
+            userId: req.body.userId,
+            createdAt: new Date(),
+            updatedAt: new Date()
+        };
+        const result = await commentsCollection.insertOne(newComment);
+        res.status(201).json(result.ops[0]);
     } catch (error) {
         console.error('Error adding comment:', error);
         res.status(500).send('Internal Server Error');
@@ -66,7 +79,8 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
 
 app.delete('/api/comments/:commentId', async (req, res) => {
     try {
-        await Comment.findByIdAndDelete(req.params.commentId);
+        const commentsCollection = db.collection('comments');
+        await commentsCollection.deleteOne({ _id: new MongoClient.ObjectId(req.params.commentId) });
         res.status(200).json({ message: 'Comment deleted successfully' });
     } catch (error) {
         console.error('Error deleting comment:', error);
