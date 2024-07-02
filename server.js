@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const mongoose = require('mongoose');
 
 const app = express();
 const port = 3000;
@@ -10,6 +11,24 @@ app.use(express.json());
 app.use(cors());
 
 let cachedData = null; // Variable to cache the data
+
+// MongoDB connection
+mongoose.connect('mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmtach', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    console.log('Connected to MongoDB');
+}).catch((error) => {
+    console.error('Error connecting to MongoDB:', error);
+});
+
+// Comment model
+const commentSchema = new mongoose.Schema({
+    vendorId: String,
+    comment: String,
+}, { timestamps: true });
+
+const Comment = mongoose.model('Comment', commentSchema);
 
 // Define API route to serve data.json
 app.get('/vendors', (req, res) => {
@@ -32,6 +51,32 @@ app.get('/vendors', (req, res) => {
 
         res.json(vendorData);
     });
+});
+
+// Endpoint to get comments for a vendor
+app.get('/api/vendors/:vendorId/comments', async (req, res) => {
+    try {
+        const comments = await Comment.find({ vendorId: req.params.vendorId });
+        res.json(comments);
+    } catch (error) {
+        console.error('Error fetching comments:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to add a comment for a vendor
+app.post('/api/vendors/:vendorId/comments', async (req, res) => {
+    try {
+        const newComment = new Comment({
+            vendorId: req.params.vendorId,
+            comment: req.body.comment,
+        });
+        await newComment.save();
+        res.status(201).json({ message: 'Comment added successfully' });
+    } catch (error) {
+        console.error('Error adding comment:', error);
+        res.status(500).send('Internal Server Error');
+    }
 });
 
 app.listen(port, () => {
