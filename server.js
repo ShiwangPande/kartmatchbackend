@@ -1,4 +1,3 @@
-
 const express = require('express');
 const cors = require('cors');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
@@ -6,48 +5,61 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(express.json());
 app.use(cors());
 
-
 const uri = "mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
-  serverApi: {
-    version: ServerApiVersion.v1,
-    strict: true,
-    deprecationErrors: true,
-  }
+    serverApi: {
+        version: ServerApiVersion.v1,
+        strict: true,
+        deprecationErrors: true,
+    }
 });
 
 let db;
+let vendorData;
 
 // Function to connect to the MongoDB server
 async function connectToDatabase() {
-  try {
-    await client.connect();
-    await client.db("admin").command({ ping: 1 });
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
-    db = client.db("kartmatch");
-  } catch (error) {
-    console.error('Error connecting to MongoDB:', error);
-  }
+    try {
+        await client.connect();
+        await client.db("admin").command({ ping: 1 });
+        console.log("Pinged your deployment. You successfully connected to MongoDB!");
+        db = client.db("kartmatch");
+    } catch (error) {
+        console.error('Error connecting to MongoDB:', error);
+    }
 }
 
-// Connect to the database before starting the server
-connectToDatabase();
-
-app.get('/vendors', (req, res) => {
+// Load JSON data once at startup
+function loadVendorData() {
     const dataFilePath = path.join(__dirname, 'data.json');
     fs.readFile(dataFilePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading data file:', err);
-            res.status(500).send('Internal Server Error');
             return;
         }
-        res.json(JSON.parse(data).vendorData);
+        vendorData = JSON.parse(data).vendorData;
     });
+}
+
+// Connect to the database and load JSON data before starting the server
+async function initializeServer() {
+    await connectToDatabase();
+    loadVendorData();
+}
+
+initializeServer();
+
+app.get('/vendors', (req, res) => {
+    if (!vendorData) {
+        res.status(500).send('Internal Server Error');
+        return;
+    }
+    res.json(vendorData);
 });
 
 app.get('/api/vendors/:vendorId/comments', async (req, res) => {
