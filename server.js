@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 const path = require('path');
 const fs = require('fs');
 
@@ -12,11 +12,8 @@ app.use(cors());
 
 const uri = "mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
-    serverApi: {
-        version: ServerApiVersion.v1,
-        strict: true,
-        deprecationErrors: true,
-    }
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 });
 
 let db;
