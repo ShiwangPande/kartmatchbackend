@@ -102,12 +102,14 @@ app.post('/api/users/:userId/safetyReminderAgree', checkDatabaseConnection, asyn
             { _id: ObjectId(userId) },
             { $set: { safetyReminderAgreed: true } }
         );
+
         res.status(200).json({ message: 'Safety reminder agreed successfully' });
     } catch (error) {
-        console.error('Error agreeing to safety reminder:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
+        console.error('Error agreeing to safety reminder:', error); // Log detailed error message
+        res.status(500).json({ error: 'Internal Server Error' }); // Return 500 status with generic error message
     }
 });
+
 
 // Endpoint to handle parental consent
 app.post('/api/users/:userId/parentalConsent', checkDatabaseConnection, async (req, res) => {
