@@ -21,6 +21,7 @@ const client = new MongoClient(uri, {
 
 let db;
 let vendorData;
+let usersCollection; // Add users collection
 
 // Function to connect to the MongoDB server
 async function connectToDatabase() {
@@ -29,6 +30,7 @@ async function connectToDatabase() {
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
         db = client.db("kartmatch");
+        usersCollection = db.collection('users'); // Initialize users collection
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
     }
@@ -54,6 +56,26 @@ async function initializeServer() {
 
 initializeServer();
 
+// Endpoint to handle user consent status
+app.post('/api/users/:userId/consent', async (req, res) => {
+    try {
+        const userId = req.params.userId;
+        const { consent } = req.body;
+
+        // Update user's consent status in MongoDB
+        const result = await usersCollection.updateOne(
+            { _id: ObjectId(userId) },
+            { $set: { consentGiven: consent } }
+        );
+
+        res.status(200).json({ message: 'Consent updated successfully' });
+    } catch (error) {
+        console.error('Error updating user consent:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Get vendor data endpoint
 app.get('/vendors', (req, res) => {
     if (!vendorData) {
         res.status(500).send('Internal Server Error');
@@ -62,6 +84,7 @@ app.get('/vendors', (req, res) => {
     res.json(vendorData);
 });
 
+// Get comments for a vendor endpoint
 app.get('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
         const commentsCollection = db.collection('comments');
@@ -73,6 +96,7 @@ app.get('/api/vendors/:vendorId/comments', async (req, res) => {
     }
 });
 
+// Add comment for a vendor endpoint
 app.post('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
         const commentsCollection = db.collection('comments');
@@ -91,6 +115,7 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
     }
 });
 
+// Delete comment endpoint
 app.delete('/api/comments/:commentId', async (req, res) => {
     try {
         const commentsCollection = db.collection('comments');
