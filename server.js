@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000; // Adjust for deployment
 
 app.use(express.json());
 app.use(cors());
@@ -18,7 +18,7 @@ const client = new MongoClient(uri, {
 
 let db;
 let vendorData;
-let usersCollection; // Add users collection
+let usersCollection;
 
 // Function to connect to the MongoDB server
 async function connectToDatabase() {
@@ -27,9 +27,10 @@ async function connectToDatabase() {
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
         db = client.db("kartmatch");
-        usersCollection = db.collection('users'); // Initialize users collection
+        usersCollection = db.collection('users');
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
+        process.exit(1); // Exit process if MongoDB connection fails
     }
 }
 
@@ -47,8 +48,12 @@ function loadVendorData() {
 
 // Connect to the database and load JSON data before starting the server
 async function initializeServer() {
-    await connectToDatabase();
-    loadVendorData();
+    try {
+        await connectToDatabase();
+        loadVendorData();
+    } catch (error) {
+        console.error('Error initializing server:', error);
+    }
 }
 
 initializeServer();
@@ -59,7 +64,6 @@ app.post('/api/users/:userId/consent', async (req, res) => {
         const userId = req.params.userId;
         const { consent } = req.body;
 
-        // Update user's consent status in MongoDB
         const result = await usersCollection.updateOne(
             { _id: ObjectId(userId) },
             { $set: { consentGiven: consent } }
@@ -71,7 +75,6 @@ app.post('/api/users/:userId/consent', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
-
 
 // Endpoint to handle safety reminder agreement
 app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
@@ -103,7 +106,6 @@ app.post('/api/users/:userId/parentalConsent', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
-
 
 // Get vendor data endpoint
 app.get('/vendors', (req, res) => {
