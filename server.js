@@ -82,9 +82,14 @@ app.post('/api/users/:userId/consent', async (req, res) => {
 });
 
 // Endpoint to handle safety reminder agreement
+// Endpoint to handle safety reminder agreement
 app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
     try {
         const userId = req.params.userId;
+        if (!userId) {
+            return res.status(400).json({ error: 'Missing userId' });
+        }
+
         await usersCollection.updateOne(
             { _id: ObjectId(userId) },
             { $set: { safetyReminderAgreed: true } }
@@ -95,6 +100,7 @@ app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
+
 
 // Endpoint to handle parental consent
 app.post('/api/users/:userId/parentalConsent', async (req, res) => {
