@@ -32,6 +32,7 @@ async function connectToDatabase() {
         commentsCollection = db.collection('comments');
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
+        process.exit(1); // Exit process if unable to connect to MongoDB
     }
 }
 
@@ -49,8 +50,13 @@ function loadVendorData() {
 
 // Connect to the database and load JSON data before starting the server
 async function initializeServer() {
-    await connectToDatabase();
-    loadVendorData();
+    try {
+        await connectToDatabase();
+        loadVendorData();
+    } catch (error) {
+        console.error('Error initializing server:', error);
+        process.exit(1); // Exit process if server initialization fails
+    }
 }
 
 initializeServer();
@@ -69,7 +75,7 @@ app.post('/api/users/:userId/consent', async (req, res) => {
         res.status(200).json({ message: 'Consent updated successfully' });
     } catch (error) {
         console.error('Error updating user consent:', error);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
@@ -84,7 +90,7 @@ app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
         res.status(200).json({ message: 'Safety reminder agreed successfully' });
     } catch (error) {
         console.error('Error agreeing to safety reminder:', error);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
@@ -100,14 +106,14 @@ app.post('/api/users/:userId/parentalConsent', async (req, res) => {
         res.status(200).json({ message: 'Parental consent given successfully' });
     } catch (error) {
         console.error('Error giving parental consent:', error);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
 // Get vendor data endpoint
 app.get('/vendors', (req, res) => {
     if (!vendorData) {
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Vendor data not available' });
         return;
     }
     res.json(vendorData);
@@ -120,7 +126,7 @@ app.get('/api/vendors/:vendorId/comments', async (req, res) => {
         res.json(comments);
     } catch (error) {
         console.error('Error fetching comments:', error);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
@@ -138,7 +144,7 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
         res.status(201).json(result.ops[0]);
     } catch (error) {
         console.error('Error adding comment:', error);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
@@ -149,11 +155,11 @@ app.delete('/api/comments/:commentId', async (req, res) => {
         if (result.deletedCount === 1) {
             res.status(200).json({ message: 'Comment deleted successfully' });
         } else {
-            res.status(404).json({ message: 'Comment not found' });
+            res.status(404).json({ error: 'Comment not found' });
         }
     } catch (error) {
         console.error('Error deleting comment:', error);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
