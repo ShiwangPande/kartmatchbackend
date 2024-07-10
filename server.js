@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-const uri = process.env.MONGODB_URI;
+const uri = "mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
