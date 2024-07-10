@@ -63,8 +63,17 @@ async function initializeServer() {
 
 initializeServer();
 
+// Middleware to check if MongoDB is connected before handling requests
+function checkDatabaseConnection(req, res, next) {
+    if (!db) {
+        res.status(500).json({ error: 'Database connection error' });
+    } else {
+        next();
+    }
+}
+
 // Endpoint to handle user consent status
-app.post('/api/users/:userId/consent', async (req, res) => {
+app.post('/api/users/:userId/consent', checkDatabaseConnection, async (req, res) => {
     try {
         const userId = req.params.userId;
         const { consent } = req.body;
@@ -82,8 +91,7 @@ app.post('/api/users/:userId/consent', async (req, res) => {
 });
 
 // Endpoint to handle safety reminder agreement
-// Endpoint to handle safety reminder agreement
-app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
+app.post('/api/users/:userId/safetyReminderAgree', checkDatabaseConnection, async (req, res) => {
     try {
         const userId = req.params.userId;
         if (!userId) {
@@ -101,9 +109,8 @@ app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
     }
 });
 
-
 // Endpoint to handle parental consent
-app.post('/api/users/:userId/parentalConsent', async (req, res) => {
+app.post('/api/users/:userId/parentalConsent', checkDatabaseConnection, async (req, res) => {
     try {
         const userId = req.params.userId;
         const { consentGiven } = req.body;
@@ -128,7 +135,7 @@ app.get('/vendors', (req, res) => {
 });
 
 // Get comments for a vendor endpoint
-app.get('/api/vendors/:vendorId/comments', async (req, res) => {
+app.get('/api/vendors/:vendorId/comments', checkDatabaseConnection, async (req, res) => {
     try {
         const comments = await commentsCollection.find({ vendorId: req.params.vendorId }).toArray();
         res.json(comments);
@@ -139,7 +146,7 @@ app.get('/api/vendors/:vendorId/comments', async (req, res) => {
 });
 
 // Add comment for a vendor endpoint
-app.post('/api/vendors/:vendorId/comments', async (req, res) => {
+app.post('/api/vendors/:vendorId/comments', checkDatabaseConnection, async (req, res) => {
     try {
         const newComment = {
             vendorId: req.params.vendorId,
@@ -157,7 +164,7 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
 });
 
 // Delete comment endpoint
-app.delete('/api/comments/:commentId', async (req, res) => {
+app.delete('/api/comments/:commentId', checkDatabaseConnection, async (req, res) => {
     try {
         const result = await commentsCollection.deleteOne({ _id: new ObjectId(req.params.commentId) });
         if (result.deletedCount === 1) {
