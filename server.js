@@ -91,7 +91,8 @@ app.post('/api/users/:userId/consent', checkDatabaseConnection, async (req, res)
 });
 
 // Endpoint to handle safety reminder agreement
-app.post('/api/users/:userId/safetyReminderAgree', checkDatabaseConnection, async (req, res) => {
+// Endpoint to handle safety reminder agreement
+app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
     try {
         const userId = req.params.userId;
         if (!userId) {
@@ -109,6 +110,7 @@ app.post('/api/users/:userId/safetyReminderAgree', checkDatabaseConnection, asyn
         res.status(500).json({ error: 'Internal Server Error' }); // Return 500 status with generic error message
     }
 });
+
 
 
 // Endpoint to handle parental consent
