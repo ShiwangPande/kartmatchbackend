@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = process.env.PORT || 5000; // Adjust for deployment
+const port = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors());
@@ -19,6 +19,7 @@ const client = new MongoClient(uri, {
 let db;
 let vendorData;
 let usersCollection;
+let commentsCollection;
 
 // Function to connect to the MongoDB server
 async function connectToDatabase() {
@@ -28,9 +29,9 @@ async function connectToDatabase() {
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
         db = client.db("kartmatch");
         usersCollection = db.collection('users');
+        commentsCollection = db.collection('comments');
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
-        process.exit(1); // Exit process if MongoDB connection fails
     }
 }
 
@@ -48,12 +49,8 @@ function loadVendorData() {
 
 // Connect to the database and load JSON data before starting the server
 async function initializeServer() {
-    try {
-        await connectToDatabase();
-        loadVendorData();
-    } catch (error) {
-        console.error('Error initializing server:', error);
-    }
+    await connectToDatabase();
+    loadVendorData();
 }
 
 initializeServer();
@@ -119,7 +116,6 @@ app.get('/vendors', (req, res) => {
 // Get comments for a vendor endpoint
 app.get('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
-        const commentsCollection = db.collection('comments');
         const comments = await commentsCollection.find({ vendorId: req.params.vendorId }).toArray();
         res.json(comments);
     } catch (error) {
@@ -131,7 +127,6 @@ app.get('/api/vendors/:vendorId/comments', async (req, res) => {
 // Add comment for a vendor endpoint
 app.post('/api/vendors/:vendorId/comments', async (req, res) => {
     try {
-        const commentsCollection = db.collection('comments');
         const newComment = {
             vendorId: req.params.vendorId,
             comment: req.body.comment,
@@ -150,7 +145,6 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
 // Delete comment endpoint
 app.delete('/api/comments/:commentId', async (req, res) => {
     try {
-        const commentsCollection = db.collection('comments');
         const result = await commentsCollection.deleteOne({ _id: new ObjectId(req.params.commentId) });
         if (result.deletedCount === 1) {
             res.status(200).json({ message: 'Comment deleted successfully' });
