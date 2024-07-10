@@ -72,6 +72,39 @@ app.post('/api/users/:userId/consent', async (req, res) => {
     }
 });
 
+
+// Endpoint to handle safety reminder agreement
+app.post('/api/users/:userId/safetyReminderAgree', async (req, res) => {
+    try {
+        const userId = req.params.userId;
+        await usersCollection.updateOne(
+            { _id: ObjectId(userId) },
+            { $set: { safetyReminderAgreed: true } }
+        );
+        res.status(200).json({ message: 'Safety reminder agreed successfully' });
+    } catch (error) {
+        console.error('Error agreeing to safety reminder:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to handle parental consent
+app.post('/api/users/:userId/parentalConsent', async (req, res) => {
+    try {
+        const userId = req.params.userId;
+        const { consentGiven } = req.body;
+        await usersCollection.updateOne(
+            { _id: ObjectId(userId) },
+            { $set: { parentalConsentGiven: consentGiven } }
+        );
+        res.status(200).json({ message: 'Parental consent given successfully' });
+    } catch (error) {
+        console.error('Error giving parental consent:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+
 // Get vendor data endpoint
 app.get('/vendors', (req, res) => {
     if (!vendorData) {
