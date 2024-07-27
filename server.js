@@ -14,7 +14,7 @@ app.use(cors());
 const username = encodeURIComponent("shiwang");
 const password = encodeURIComponent("shiwang");
 // MongoDB connection URI
-const uri = `mongodb+srv://${username}:${password}@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `mongodb+srv://${username}:${password}@cluster0.b0qfxiq.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0`;
 
 // Create a new MongoClient instance
 const client = new MongoClient(uri, {
