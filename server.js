@@ -10,14 +10,15 @@ const port = 5000;
 app.use(express.json());
 app.use(cors());
 
-const uri = "mongodb+srv://kartmatchapp:kartmatchapp@ac-thjgwvf-shard-00-02.b0qfxiq.mongodb.net/kartmatch?authSource=admin&replicaSet=atlas-i4eib8-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true";
+const uri = "mongodb+srv://kartmatchapp:shiwang@cluster0.b0qfxiq.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
-    useUnifiedTopology: true, // Use the new Server Discover and Monitoring engine
+    useUnifiedTopology: true,
     serverApi: {
         version: ServerApiVersion.v1,
         strict: true,
         deprecationErrors: true,
     }
+
 });
 
 let db;
