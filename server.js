@@ -10,9 +10,11 @@ const port = 5000;
 app.use(express.json());
 app.use(cors());
 
+// MongoDB connection URI
 const uri = "mongodb+srv://shiwang:shiwang@cluster0.b0qfxiq.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
+
+// Create a new MongoClient instance
 const client = new MongoClient(uri, {
-    tls: true,
     serverApi: {
         version: ServerApiVersion.v1,
         strict: true,
@@ -58,6 +60,7 @@ async function initializeServer() {
 
 initializeServer();
 
+// Endpoints
 app.get('/vendors', (req, res) => {
     if (!vendorData) {
         res.status(500).send('Internal Server Error');
@@ -88,7 +91,7 @@ app.post('/api/vendors/:vendorId/comments', async (req, res) => {
             updatedAt: new Date()
         };
         const result = await commentsCollection.insertOne(newComment);
-        res.status(201).json(result.ops[0]);
+        res.status(201).json(result.insertedId);
     } catch (error) {
         console.error('Error adding comment:', error);
         res.status(500).send('Internal Server Error');
