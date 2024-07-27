@@ -10,7 +10,7 @@ const port = 5000;
 app.use(express.json());
 app.use(cors());
 
-const uri = "mongodb+srv://shiwang:shiwang@cluster0.ytjenqf.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://kartmatchapp:kartmatchapp@cluster0.b0qfxiq.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
     serverApi: {
         version: ServerApiVersion.v1,
