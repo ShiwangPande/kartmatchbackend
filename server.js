@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs').promises; // Use promises with fs for better async/await usage
 
 const app = express();
 const port = 5000;
@@ -18,7 +18,6 @@ const client = new MongoClient(uri, {
         strict: true,
         deprecationErrors: true,
     }
-
 });
 
 let db;
@@ -38,21 +37,24 @@ async function connectToDatabase() {
 }
 
 // Load JSON data once at startup
-function loadVendorData() {
+async function loadVendorData() {
     const dataFilePath = path.join(__dirname, 'data.json');
-    fs.readFile(dataFilePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading data file:', err);
-            return;
-        }
+    try {
+        const data = await fs.readFile(dataFilePath, 'utf8');
         vendorData = JSON.parse(data).vendorData;
-    });
+    } catch (error) {
+        console.error('Error reading data file:', error);
+        process.exit(1); // Exit the process with failure
+    }
 }
 
 // Connect to the database and load JSON data before starting the server
 async function initializeServer() {
     await connectToDatabase();
-    loadVendorData();
+    await loadVendorData();
+    app.listen(port, () => {
+        console.log(`Server running at http://localhost:${port}`);
+    });
 }
 
 initializeServer();
@@ -107,8 +109,4 @@ app.delete('/api/comments/:commentId', async (req, res) => {
         console.error('Error deleting comment:', error);
         res.status(500).send('Internal Server Error');
     }
-});
-
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
 });
