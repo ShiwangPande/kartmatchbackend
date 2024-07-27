@@ -12,7 +12,6 @@ app.use(cors());
 
 const uri = "mongodb+srv://kartmatchapp:kartmatchapp@cluster0.b0qfxiq.mongodb.net//kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
-    useUnifiedTopology: true,
     serverApi: {
         version: ServerApiVersion.v1,
         strict: true,
