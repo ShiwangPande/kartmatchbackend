@@ -12,8 +12,6 @@ app.use(cors());
 
 const uri = "mongodb+srv://shiwang:shiwang@cluster0.b0qfxiq.mongodb.net/kartmatch?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
-    useUnifiedTopology: true,
-    useUnifiedTopology: true, 
     tls: true,
     serverApi: {
         version: ServerApiVersion.v1,
@@ -29,8 +27,7 @@ let vendorData;
 async function connectToDatabase() {
     try {
         await client.connect();
-        await client.db("admin").command({ ping: 1 });
-        console.log("Pinged your deployment. You successfully connected to MongoDB!");
+        console.log("Connected successfully to MongoDB!");
         db = client.db("kartmatch");
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
